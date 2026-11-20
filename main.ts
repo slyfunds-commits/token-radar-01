@@ -272,11 +272,10 @@ const boardJson = `${JSON.stringify(board, null, 2)}\n`;
 const dataScript = `window.TOKEN_RADAR_BOARD = ${JSON.stringify(board)};\nwindow.TOKEN_RADAR_LIVE = ${JSON.stringify(liveTokens)};\nwindow.TOKEN_RADAR_COMPARABLES = ${JSON.stringify(categoryComparables)};\n`;
 const outputDashboard = join(outputPath, "dashboard");
 mkdirSync(outputDashboard, { recursive: true });
-writeFileSync(join(here, "board.json"), boardJson, "utf8");
 writeFileSync(join(outputPath, "board.json"), boardJson, "utf8");
-writeFileSync(join(here, "dashboard", "data.js"), dataScript, "utf8");
 writeFileSync(join(outputPath, "data.js"), dataScript, "utf8");
 cpSync(join(here, "dashboard"), outputDashboard, { recursive: true });
+writeFileSync(join(outputPath, "dashboard", "data.js"), dataScript, "utf8");
 
 const screenshotSource = join(here, "screenshots");
 const screenshotOutput = join(outputPath, "screenshots");
