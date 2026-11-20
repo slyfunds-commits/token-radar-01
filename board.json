@@ -10,6 +10,20 @@
     {
       "slug": "steakhouse-financial",
       "name": "Steakhouse Financial",
+      "category": "Risk Curators",
+      "chains": [
+        "Base",
+        "Ethereum",
+        "Robinhood Chain",
+        "Arbitrum",
+        "Solana",
+        "Monad",
+        "Arc",
+        "Katana",
+        "Polygon",
+        "Unichain",
+        "Corn"
+      ],
       "rank": 1,
       "implied_value_usd": 1933110562,
       "farm_steps": [
@@ -22,15 +36,36 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 2753981495,
+      "change_7d": -2.1935,
+      "listed_at": "2025-05-20",
       "capital_usd": 153,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.978065,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.242336
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.242336183234545
     },
     {
       "slug": "gauntlet",
       "name": "Gauntlet",
+      "category": "Risk Curators",
+      "chains": [
+        "Base",
+        "Binance",
+        "Ethereum",
+        "Arbitrum",
+        "Stable",
+        "Morph",
+        "Solana",
+        "Hyperliquid L1",
+        "Polygon",
+        "Optimism",
+        "Unichain",
+        "Katana",
+        "Arc",
+        "Tempo"
+      ],
       "rank": 2,
       "implied_value_usd": 1250731080,
       "farm_steps": [
@@ -43,15 +78,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 1577685462,
+      "change_7d": 5.645,
+      "listed_at": "2025-05-20",
       "capital_usd": 139,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.05645,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.29899
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.298989819030498
     },
     {
       "slug": "predict-fun",
       "name": "Predict Fun",
+      "category": "Prediction Market",
+      "chains": [
+        "Binance",
+        "Blast"
+      ],
       "rank": 3,
       "implied_value_usd": 683755042,
       "farm_steps": [
@@ -64,15 +108,35 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 10662527,
+      "change_7d": 9.4025,
+      "listed_at": "2024-09-10",
       "capital_usd": 50,
-      "category_multiple": 66.905746,
+      "category_multiple": 66.90574566539958,
+      "category_comparable_count": 1,
+      "category_comparable_median": 400.2044739923975,
       "growth_factor": 1.094025,
-      "maturity_factor": 0.85883,
+      "maturity_factor": 0.858829568788501,
       "chain_multiplier": 1.0201
     },
     {
       "slug": "veda",
       "name": "Veda",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ink",
+        "Ethereum",
+        "Optimism",
+        "Monad",
+        "Plasma",
+        "Hyperliquid L1",
+        "Arbitrum",
+        "Base",
+        "Berachain",
+        "Sonic",
+        "Binance",
+        "BOB",
+        "Scroll"
+      ],
       "rank": 4,
       "implied_value_usd": 264676406,
       "farm_steps": [
@@ -85,15 +149,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 1563415482,
+      "change_7d": -8.2898,
+      "listed_at": "2025-02-20",
       "capital_usd": 139,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.917102,
-      "maturity_factor": 0.836516,
-      "chain_multiplier": 1.230866
+      "maturity_factor": 0.8365160848733744,
+      "chain_multiplier": 1.230865669594524
     },
     {
       "slug": "nonce-capital",
       "name": "Nonce Capital",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Optimism"
+      ],
       "rank": 5,
       "implied_value_usd": 261965449,
       "farm_steps": [
@@ -106,15 +179,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 513783671,
+      "change_7d": -9.7377,
+      "listed_at": "2026-09-30",
       "capital_usd": 110,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.902623,
-      "maturity_factor": 0.75616,
-      "chain_multiplier": 1.066
+      "maturity_factor": 0.7561601642710473,
+      "chain_multiplier": 1.0659999999999998
     },
     {
       "slug": "usdd",
       "name": "USDD",
+      "category": "CDP",
+      "chains": [
+        "Tron",
+        "Ethereum",
+        "Binance"
+      ],
       "rank": 6,
       "implied_value_usd": 196951210,
       "farm_steps": [
@@ -127,15 +210,32 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 1055793606,
+      "change_7d": -2.8062,
+      "listed_at": "2025-03-13",
       "capital_usd": 129,
-      "category_multiple": 0.217013,
+      "category_multiple": 0.21701299163190801,
+      "category_comparable_count": 3,
+      "category_comparable_median": 0.16870131101842134,
       "growth_factor": 0.971938,
-      "maturity_factor": 0.833641,
+      "maturity_factor": 0.8336413415468857,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "rockawayx",
       "name": "RockawayX",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Solana",
+        "Pharos",
+        "Monad",
+        "Sei",
+        "Base",
+        "Binance",
+        "Citrea",
+        "Etherlink",
+        "Plume Mainnet"
+      ],
       "rank": 7,
       "implied_value_usd": 187459559,
       "farm_steps": [
@@ -148,15 +248,32 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 292506628,
+      "change_7d": -2.5459,
+      "listed_at": "2026-03-26",
       "capital_usd": 96,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.974541,
-      "maturity_factor": 0.781896,
-      "chain_multiplier": 1.200153
+      "maturity_factor": 0.781895961670089,
+      "chain_multiplier": 1.2001526016899957
     },
     {
       "slug": "hyperithm",
       "name": "Hyperithm",
+      "category": "Risk Curators",
+      "chains": [
+        "Monad",
+        "Ethereum",
+        "Arbitrum",
+        "Plasma",
+        "Solana",
+        "Hyperliquid L1",
+        "Katana",
+        "Stable",
+        "XRPL EVM",
+        "Binance"
+      ],
       "rank": 8,
       "implied_value_usd": 146227365,
       "farm_steps": [
@@ -169,15 +286,31 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 221638535,
+      "change_7d": -4.375,
+      "listed_at": "2025-05-20",
       "capital_usd": 88,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.95625,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.194327
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.1943266181866456
     },
     {
       "slug": "k3-capital",
       "name": "K3 Capital",
+      "category": "Risk Curators",
+      "chains": [
+        "Monad",
+        "Ethereum",
+        "Optimism",
+        "Hyperliquid L1",
+        "Plasma",
+        "Arbitrum",
+        "Binance",
+        "Unichain",
+        "Avalanche"
+      ],
       "rank": 9,
       "implied_value_usd": 128039422,
       "farm_steps": [
@@ -190,15 +323,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 207711162,
+      "change_7d": -8.9024,
+      "listed_at": "2025-05-20",
       "capital_usd": 87,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.910976,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.171354
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.1713538538666004
     },
     {
       "slug": "hive-protocol",
       "name": "Hive Protocol",
+      "category": "Chain",
+      "chains": [
+        "BSquared"
+      ],
       "rank": 10,
       "implied_value_usd": 112141133,
       "farm_steps": [
@@ -211,15 +352,37 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 198776765,
+      "change_7d": -10.181,
+      "listed_at": "2024-05-03",
       "capital_usd": 86,
-      "category_multiple": 0.709407,
+      "category_multiple": 0.7094071875170829,
+      "category_comparable_count": 1,
+      "category_comparable_median": 3.0264431251024972,
       "growth_factor": 0.89819,
-      "maturity_factor": 0.876626,
+      "maturity_factor": 0.8766255989048597,
       "chain_multiplier": 1.01
     },
     {
       "slug": "upshift",
       "name": "Upshift",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ethereum",
+        "Stellar",
+        "Flare",
+        "Monad",
+        "Hyperliquid L1",
+        "Avalanche",
+        "Solana",
+        "Fluent",
+        "Base",
+        "Citrea",
+        "Sui",
+        "Plasma",
+        "Binance",
+        "Mezo",
+        "Ink"
+      ],
       "rank": 11,
       "implied_value_usd": 104590411,
       "farm_steps": [
@@ -232,15 +395,33 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 499083733,
+      "change_7d": 8.3117,
+      "listed_at": "2024-12-04",
       "capital_usd": 109,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 1.083117,
-      "maturity_factor": 0.847194,
-      "chain_multiplier": 1.273861
+      "maturity_factor": 0.8471937029431896,
+      "chain_multiplier": 1.273861282129153
     },
     {
       "slug": "clearstar",
       "name": "Clearstar",
+      "category": "Risk Curators",
+      "chains": [
+        "Flare",
+        "Base",
+        "Ethereum",
+        "Monad",
+        "Hyperliquid L1",
+        "Starknet",
+        "Katana",
+        "Arbitrum",
+        "Hemi",
+        "Unichain",
+        "Polygon"
+      ],
       "rank": 12,
       "implied_value_usd": 100886024,
       "farm_steps": [
@@ -253,15 +434,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 161773491,
+      "change_7d": -10.0936,
+      "listed_at": "2025-05-20",
       "capital_usd": 80,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.899064,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.200727
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.2007268373845839
     },
     {
       "slug": "galaxy-curation",
       "name": "Galaxy Curation",
+      "category": "Risk Curators",
+      "chains": [
+        "Arc",
+        "Ethereum",
+        "Base"
+      ],
       "rank": 13,
       "implied_value_usd": 84880452,
       "farm_steps": [
@@ -274,15 +465,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 129994276,
+      "change_7d": 11.2334,
+      "listed_at": "2026-05-21",
       "capital_usd": 75,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.112334,
-      "maturity_factor": 0.77423,
+      "maturity_factor": 0.7742299794661192,
       "chain_multiplier": 1.081912
     },
     {
       "slug": "bittensor-dtao",
       "name": "Bittensor dTAO",
+      "category": "Dexs",
+      "chains": [
+        "Bittensor"
+      ],
       "rank": 14,
       "implied_value_usd": 83970034,
       "farm_steps": [
@@ -295,15 +494,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 376026255,
+      "change_7d": -6.5592,
+      "listed_at": "2026-09-19",
       "capital_usd": 102,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.934408,
-      "maturity_factor": 0.757666,
+      "maturity_factor": 0.7576659822039699,
       "chain_multiplier": 1.01
     },
     {
       "slug": "onre",
       "name": "OnRe",
+      "category": "RWA",
+      "chains": [
+        "Solana"
+      ],
       "rank": 15,
       "implied_value_usd": 69811141,
       "farm_steps": [
@@ -316,15 +523,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 308882355,
+      "change_7d": 0.1082,
+      "listed_at": "2025-07-14",
       "capital_usd": 97,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.001082,
-      "maturity_factor": 0.816804,
+      "maturity_factor": 0.8168035592060232,
       "chain_multiplier": 1.045
     },
     {
       "slug": "armitage-by-wintermute",
       "name": "Armitage by Wintermute",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 16,
       "implied_value_usd": 61771871,
       "farm_steps": [
@@ -337,15 +552,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 103480212,
+      "change_7d": 5.7711,
+      "listed_at": "2026-05-20",
       "capital_usd": 69,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.057711,
-      "maturity_factor": 0.774367,
+      "maturity_factor": 0.7743668720054757,
       "chain_multiplier": 1.04
     },
     {
       "slug": "opentrade",
       "name": "OpenTrade",
+      "category": "RWA",
+      "chains": [
+        "Avalanche",
+        "Ethereum",
+        "Plume Mainnet"
+      ],
       "rank": 17,
       "implied_value_usd": 57010503,
       "farm_steps": [
@@ -358,15 +583,27 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 241501527,
+      "change_7d": -1.642,
+      "listed_at": "2024-12-06",
       "capital_usd": 91,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 0.98358,
-      "maturity_factor": 0.84692,
+      "maturity_factor": 0.8469199178644764,
       "chain_multiplier": 1.071408
     },
     {
       "slug": "plume-vaults",
       "name": "Plume Vaults",
+      "category": "RWA",
+      "chains": [
+        "Ethereum",
+        "Plume Mainnet",
+        "Solana",
+        "Binance",
+        "Avalanche"
+      ],
       "rank": 18,
       "implied_value_usd": 52279189,
       "farm_steps": [
@@ -379,15 +616,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 211537977,
+      "change_7d": -3.081,
+      "listed_at": "2024-10-26",
       "capital_usd": 87,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 0.96919,
-      "maturity_factor": 0.852533,
-      "chain_multiplier": 1.130818
+      "maturity_factor": 0.8525325119780972,
+      "chain_multiplier": 1.1308175736
     },
     {
       "slug": "symbiotic",
       "name": "Symbiotic",
+      "category": "Collateral Markets",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 19,
       "implied_value_usd": 48705667,
       "farm_steps": [
@@ -400,15 +645,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 253923299,
+      "change_7d": -12.0318,
+      "listed_at": "2024-06-11",
       "capital_usd": 92,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.879682,
-      "maturity_factor": 0.871287,
+      "maturity_factor": 0.8712867898699521,
       "chain_multiplier": 1.04
     },
     {
       "slug": "keyrock",
       "name": "Keyrock",
+      "category": "Risk Curators",
+      "chains": [
+        "Arc",
+        "Ethereum"
+      ],
       "rank": 20,
       "implied_value_usd": 46195246,
       "farm_steps": [
@@ -421,15 +675,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 83070632,
+      "change_7d": -0.5971,
+      "listed_at": "2026-09-02",
       "capital_usd": 63,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.994029,
-      "maturity_factor": 0.759993,
+      "maturity_factor": 0.7599931553730321,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "noble",
       "name": "Noble",
+      "category": "Chain",
+      "chains": [
+        "Noble"
+      ],
       "rank": 21,
       "implied_value_usd": 45108578,
       "farm_steps": [
@@ -442,8 +704,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 83040073,
+      "change_7d": -5.2314,
+      "listed_at": null,
       "capital_usd": 63,
-      "category_multiple": 0.709407,
+      "category_multiple": 0.7094071875170829,
+      "category_comparable_count": 1,
+      "category_comparable_median": 3.0264431251024972,
       "growth_factor": 0.947686,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.01
@@ -451,6 +717,16 @@
     {
       "slug": "gami-labs",
       "name": "Gami Labs",
+      "category": "Risk Curators",
+      "chains": [
+        "Stellar",
+        "Ethereum",
+        "Base",
+        "Flare",
+        "Avalanche",
+        "Robinhood Chain",
+        "Hemi"
+      ],
       "rank": 22,
       "implied_value_usd": 42386438,
       "farm_steps": [
@@ -463,15 +739,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 63109489,
+      "change_7d": 9.0271,
+      "listed_at": "2026-05-29",
       "capital_usd": 56,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.090271,
-      "maturity_factor": 0.773135,
-      "chain_multiplier": 1.136989
+      "maturity_factor": 0.7731348391512662,
+      "chain_multiplier": 1.1369889158222402
     },
     {
       "slug": "r25",
       "name": "R25",
+      "category": "RWA",
+      "chains": [
+        "Pharos",
+        "Sui"
+      ],
       "rank": 23,
       "implied_value_usd": 41690806,
       "farm_steps": [
@@ -484,15 +769,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 198206607,
+      "change_7d": 0.2987,
+      "listed_at": "2026-04-29",
       "capital_usd": 86,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.002987,
-      "maturity_factor": 0.777242,
+      "maturity_factor": 0.7772416153319645,
       "chain_multiplier": 1.0201
     },
     {
       "slug": "lightning-network",
       "name": "Lightning Network",
+      "category": "Payments",
+      "chains": [
+        "Bitcoin"
+      ],
       "rank": 24,
       "implied_value_usd": 35986719,
       "farm_steps": [
@@ -505,8 +798,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 217862346,
+      "change_7d": -10.1445,
+      "listed_at": null,
       "capital_usd": 88,
-      "category_multiple": 0.227512,
+      "category_multiple": 0.22751186433243026,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.18129152516350583,
       "growth_factor": 0.898555,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.01
@@ -514,6 +811,17 @@
     {
       "slug": "tulipa-capital",
       "name": "Tulipa Capital",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Berachain",
+        "Avalanche",
+        "BOB",
+        "Binance",
+        "Monad",
+        "TAC"
+      ],
       "rank": 25,
       "implied_value_usd": 31513548,
       "farm_steps": [
@@ -526,15 +834,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 52404471,
+      "change_7d": -9.3511,
+      "listed_at": "2025-05-20",
       "capital_usd": 51,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.906489,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.148359
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.1483588049804625
     },
     {
       "slug": "tori-finance",
       "name": "Tori Finance",
+      "category": "Basis Trading",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 26,
       "implied_value_usd": 31385644,
       "farm_steps": [
@@ -547,15 +863,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 77392441,
+      "change_7d": 4.6366,
+      "listed_at": "2026-06-24",
       "capital_usd": 61,
-      "category_multiple": 0.484244,
+      "category_multiple": 0.48424397826142745,
+      "category_comparable_count": 7,
+      "category_comparable_median": 0.6544182484481614,
       "growth_factor": 1.046366,
-      "maturity_factor": 0.769576,
+      "maturity_factor": 0.7695756331279945,
       "chain_multiplier": 1.04
     },
     {
       "slug": "saturn",
       "name": "Saturn",
+      "category": "Stablecoin Wrapper",
+      "chains": [
+        "Ethereum",
+        "Monad",
+        "Binance"
+      ],
       "rank": 27,
       "implied_value_usd": 30496999,
       "farm_steps": [
@@ -568,15 +894,39 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 154313682,
+      "change_7d": -0.7486,
+      "listed_at": "2026-04-09",
       "capital_usd": 79,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.992514,
-      "maturity_factor": 0.779979,
+      "maturity_factor": 0.7799794661190965,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "re7-labs",
       "name": "Re7 Labs",
+      "category": "Risk Curators",
+      "chains": [
+        "World Chain",
+        "Ethereum",
+        "Starknet",
+        "Avalanche",
+        "Optimism",
+        "Base",
+        "Plume Mainnet",
+        "Linea",
+        "Binance",
+        "Sonic",
+        "Unichain",
+        "TAC",
+        "BOB",
+        "Berachain",
+        "Arc",
+        "Polygon",
+        "Plasma"
+      ],
       "rank": 28,
       "implied_value_usd": 30017036,
       "farm_steps": [
@@ -589,15 +939,45 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 46889655,
+      "change_7d": -13.9104,
+      "listed_at": "2025-05-20",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.860896,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.287215
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.287215492986306
     },
     {
       "slug": "lagoon",
       "name": "Lagoon",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ethereum",
+        "Arbitrum",
+        "Base",
+        "Binance",
+        "Avalanche",
+        "Plasma",
+        "Hyperliquid L1",
+        "TAC",
+        "Hemi",
+        "Linea",
+        "Rayls",
+        "Monad",
+        "Robinhood Chain",
+        "Optimism",
+        "Katana",
+        "Sonic",
+        "Mantle",
+        "Arc",
+        "Berachain",
+        "Flare",
+        "Polygon",
+        "Unichain",
+        "World Chain"
+      ],
       "rank": 29,
       "implied_value_usd": 28794518,
       "farm_steps": [
@@ -610,15 +990,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 151263522,
+      "change_7d": -3.2955,
+      "listed_at": "2024-12-23",
       "capital_usd": 79,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.967045,
-      "maturity_factor": 0.844593,
+      "maturity_factor": 0.8445927446954141,
       "chain_multiplier": 1.3
     },
     {
       "slug": "axis",
       "name": "Axis",
+      "category": "Basis Trading",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 30,
       "implied_value_usd": 27537955,
       "farm_steps": [
@@ -631,15 +1019,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 70145354,
+      "change_7d": 2.3316,
+      "listed_at": "2026-08-20",
       "capital_usd": 59,
-      "category_multiple": 0.484244,
+      "category_multiple": 0.48424397826142745,
+      "category_comparable_count": 7,
+      "category_comparable_median": 0.6544182484481614,
       "growth_factor": 1.023316,
-      "maturity_factor": 0.761773,
+      "maturity_factor": 0.7617727583846681,
       "chain_multiplier": 1.04
     },
     {
       "slug": "lofty",
       "name": "Lofty",
+      "category": "RWA",
+      "chains": [
+        "Algorand"
+      ],
       "rank": 31,
       "implied_value_usd": 26050960,
       "farm_steps": [
@@ -652,15 +1048,33 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 101135900,
+      "change_7d": 0.025,
+      "listed_at": "2022-08-04",
       "capital_usd": 68,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.00025,
-      "maturity_factor": 0.963963,
+      "maturity_factor": 0.9639630390143737,
       "chain_multiplier": 1.01
     },
     {
       "slug": "ultrayield-curator",
       "name": "UltraYield Curator",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Hyperliquid L1",
+        "Etherlink",
+        "Base",
+        "Monad",
+        "Plasma",
+        "Plume Mainnet",
+        "TAC",
+        "Linea",
+        "Arbitrum",
+        "Optimism"
+      ],
       "rank": 32,
       "implied_value_usd": 24558888,
       "farm_steps": [
@@ -673,15 +1087,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 40359035,
+      "change_7d": -10.3636,
+      "listed_at": "2025-10-24",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
-      "growth_factor": 0.896364,
-      "maturity_factor": 0.802841,
-      "chain_multiplier": 1.206613
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
+      "growth_factor": 0.8963639999999999,
+      "maturity_factor": 0.8028405201916495,
+      "chain_multiplier": 1.206612753254116
     },
     {
       "slug": "valos",
       "name": "Valos",
+      "category": "RWA",
+      "chains": [
+        "Monad"
+      ],
       "rank": 33,
       "implied_value_usd": 21774878,
       "farm_steps": [
@@ -694,15 +1116,27 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 106328133,
+      "change_7d": 0.1453,
+      "listed_at": "2026-07-24",
       "capital_usd": 69,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.001453,
-      "maturity_factor": 0.765469,
+      "maturity_factor": 0.7654688569472964,
       "chain_multiplier": 1.01
     },
     {
       "slug": "apex-omni",
       "name": "Apex Omni",
+      "category": "Derivatives",
+      "chains": [
+        "Arbitrum",
+        "Ethereum",
+        "Base",
+        "Binance",
+        "Mantle"
+      ],
       "rank": 34,
       "implied_value_usd": 20463175,
       "farm_steps": [
@@ -715,15 +1149,28 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 26834758,
+      "change_7d": -1.262,
+      "listed_at": "2024-06-27",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 0.98738,
-      "maturity_factor": 0.869097,
-      "chain_multiplier": 1.120049
+      "maturity_factor": 0.8690965092402464,
+      "chain_multiplier": 1.1200493980000001
     },
     {
       "slug": "ember",
       "name": "Ember",
+      "category": "RWA",
+      "chains": [
+        "Ethereum",
+        "Sui",
+        "Base",
+        "Pharos",
+        "Monad",
+        "Arbitrum"
+      ],
       "rank": 35,
       "implied_value_usd": 20462805,
       "farm_steps": [
@@ -736,15 +1183,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 90012351,
+      "change_7d": -5.9593,
+      "listed_at": "2025-09-17",
       "capital_usd": 65,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 0.940407,
-      "maturity_factor": 0.807906,
-      "chain_multiplier": 1.13125
+      "maturity_factor": 0.807905544147844,
+      "chain_multiplier": 1.1312498919799998
     },
     {
       "slug": "b14g",
       "name": "b14g",
+      "category": "Restaking",
+      "chains": [
+        "Bitcoin",
+        "CORE",
+        "Babylon Genesis"
+      ],
       "rank": 36,
       "implied_value_usd": 19778807,
       "farm_steps": [
@@ -757,15 +1214,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 173941404,
+      "change_7d": -28.5327,
+      "listed_at": "2024-12-20",
       "capital_usd": 82,
-      "category_multiple": 0.182754,
+      "category_multiple": 0.18275410938014167,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.024639382830495778,
       "growth_factor": 0.714673,
-      "maturity_factor": 0.845003,
+      "maturity_factor": 0.8450034223134839,
       "chain_multiplier": 1.030301
     },
     {
       "slug": "august-digital",
       "name": "August Digital",
+      "category": "Risk Curators",
+      "chains": [
+        "Monad",
+        "Ethereum"
+      ],
       "rank": 37,
       "implied_value_usd": 18775241,
       "farm_steps": [
@@ -778,15 +1244,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22373995,
+      "change_7d": 77.9812,
+      "listed_at": "2026-09-02",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.5,
-      "maturity_factor": 0.759993,
+      "maturity_factor": 0.7599931553730321,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "decibel",
       "name": "Decibel",
+      "category": "Derivatives",
+      "chains": [
+        "Aptos"
+      ],
       "rank": 38,
       "implied_value_usd": 18459235,
       "farm_steps": [
@@ -799,15 +1273,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 29253135,
+      "change_7d": 0.2216,
+      "listed_at": "2026-02-26",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 1.002216,
-      "maturity_factor": 0.785729,
+      "maturity_factor": 0.7857289527720739,
       "chain_multiplier": 1.01
     },
     {
       "slug": "pulsechain-bridge",
       "name": "PulseChain Bridge",
+      "category": "Canonical Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 39,
       "implied_value_usd": 18127294,
       "farm_steps": [
@@ -820,8 +1302,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 41070024,
+      "change_7d": -4.2306,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.553934,
+      "category_multiple": 0.5539338708103405,
+      "category_comparable_count": 8,
+      "category_comparable_median": 0.7463925400668032,
       "growth_factor": 0.957694,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.04
@@ -829,6 +1315,10 @@
     {
       "slug": "curvance",
       "name": "Curvance",
+      "category": "Lending",
+      "chains": [
+        "Monad"
+      ],
       "rank": 40,
       "implied_value_usd": 17793960,
       "farm_steps": [
@@ -841,15 +1331,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 136345059,
+      "change_7d": 0.6775,
+      "listed_at": "2025-11-27",
       "capital_usd": 76,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 1.006775,
-      "maturity_factor": 0.798186,
+      "maturity_factor": 0.798186173853525,
       "chain_multiplier": 1.01
     },
     {
       "slug": "polygon-zkevm-bridge",
       "name": "Polygon zkEVM Bridge",
+      "category": "Canonical Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 41,
       "implied_value_usd": 17633247,
       "farm_steps": [
@@ -862,8 +1360,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 40060788,
+      "change_7d": -4.4938,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.553934,
+      "category_multiple": 0.5539338708103405,
+      "category_comparable_count": 8,
+      "category_comparable_median": 0.7463925400668032,
       "growth_factor": 0.955062,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.04
@@ -871,6 +1373,10 @@
     {
       "slug": "ink-bridge",
       "name": "Ink Bridge",
+      "category": "Canonical Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 42,
       "implied_value_usd": 17561378,
       "farm_steps": [
@@ -883,8 +1389,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 44348098,
+      "change_7d": -14.0784,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.553934,
+      "category_multiple": 0.5539338708103405,
+      "category_comparable_count": 8,
+      "category_comparable_median": 0.7463925400668032,
       "growth_factor": 0.859216,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.04
@@ -892,6 +1402,10 @@
     {
       "slug": "txflow-bridge",
       "name": "TxFlow Bridge",
+      "category": "Bridge",
+      "chains": [
+        "Arbitrum"
+      ],
       "rank": 43,
       "implied_value_usd": 16913505,
       "farm_steps": [
@@ -904,15 +1418,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 46958993,
+      "change_7d": 8.6584,
+      "listed_at": "2026-04-21",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 1.086584,
-      "maturity_factor": 0.778337,
+      "maturity_factor": 0.7783367556468173,
       "chain_multiplier": 1.025
     },
     {
       "slug": "doppler-finance",
       "name": "Doppler Finance",
+      "category": "CeDeFi",
+      "chains": [
+        "Ripple",
+        "Ethereum"
+      ],
       "rank": 44,
       "implied_value_usd": 16888885,
       "farm_steps": [
@@ -925,15 +1448,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 93316487,
+      "change_7d": -14.4873,
+      "listed_at": "2025-02-14",
       "capital_usd": 66,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.855127,
-      "maturity_factor": 0.837337,
+      "maturity_factor": 0.837337440109514,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "y10k-capital",
       "name": "Y10K Capital",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Monad",
+        "Sei"
+      ],
       "rank": 45,
       "implied_value_usd": 15764434,
       "farm_steps": [
@@ -946,15 +1479,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 28339301,
+      "change_7d": -2.411,
+      "listed_at": "2026-07-15",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.97589,
-      "maturity_factor": 0.766701,
+      "maturity_factor": 0.7667008898015059,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "chiliz-governance-staking",
       "name": "Chiliz Governance Staking",
+      "category": "Chain",
+      "chains": [
+        "Chiliz"
+      ],
       "rank": 46,
       "implied_value_usd": 14784016,
       "farm_steps": [
@@ -967,15 +1508,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 25528101,
+      "change_7d": -7.028,
+      "listed_at": "2024-06-25",
       "capital_usd": 50,
-      "category_multiple": 0.709407,
+      "category_multiple": 0.7094071875170829,
+      "category_comparable_count": 1,
+      "category_comparable_median": 3.0264431251024972,
       "growth_factor": 0.92972,
-      "maturity_factor": 0.86937,
+      "maturity_factor": 0.8693702943189596,
       "chain_multiplier": 1.01
     },
     {
       "slug": "aegis-yusd",
       "name": "Aegis YUSD",
+      "category": "Basis Trading",
+      "chains": [
+        "Ethereum",
+        "Binance"
+      ],
       "rank": 47,
       "implied_value_usd": 14554176,
       "farm_steps": [
@@ -988,15 +1538,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 34465848,
+      "change_7d": 0.0465,
+      "listed_at": "2025-04-10",
       "capital_usd": 50,
-      "category_multiple": 0.484244,
+      "category_multiple": 0.48424397826142745,
+      "category_comparable_count": 7,
+      "category_comparable_median": 0.6544182484481614,
       "growth_factor": 1.000465,
-      "maturity_factor": 0.829808,
+      "maturity_factor": 0.8298083504449008,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "phoenix-perp",
       "name": "Phoenix Perp",
+      "category": "Derivatives",
+      "chains": [
+        "Solana"
+      ],
       "rank": 48,
       "implied_value_usd": 14213041,
       "farm_steps": [
@@ -1009,15 +1567,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22522562,
+      "change_7d": -2.6199,
+      "listed_at": "2026-03-28",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 0.973801,
-      "maturity_factor": 0.781622,
+      "maturity_factor": 0.7816221765913758,
       "chain_multiplier": 1.045
     },
     {
       "slug": "gamma-research",
       "name": "Gamma Research",
+      "category": "Risk Curators",
+      "chains": [
+        "Monad"
+      ],
       "rank": 49,
       "implied_value_usd": 14161974,
       "farm_steps": [
@@ -1030,15 +1596,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 21709938,
+      "change_7d": 21.2903,
+      "listed_at": "2026-09-03",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.212903,
-      "maturity_factor": 0.759856,
+      "maturity_factor": 0.7598562628336756,
       "chain_multiplier": 1.01
     },
     {
       "slug": "gmx-solana",
       "name": "GMX Solana",
+      "category": "Derivatives",
+      "chains": [
+        "Solana"
+      ],
       "rank": 50,
       "implied_value_usd": 14143205,
       "farm_steps": [
@@ -1051,15 +1625,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22620052,
+      "change_7d": -4.5855,
+      "listed_at": "2026-01-23",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 0.954145,
-      "maturity_factor": 0.790383,
+      "maturity_factor": 0.7903832991101984,
       "chain_multiplier": 1.045
     },
     {
       "slug": "tydro",
       "name": "Tydro",
+      "category": "Lending",
+      "chains": [
+        "Ink"
+      ],
       "rank": 51,
       "implied_value_usd": 13822973,
       "farm_steps": [
@@ -1072,15 +1654,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 111314194,
+      "change_7d": -4.8885,
+      "listed_at": "2025-10-16",
       "capital_usd": 71,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.951115,
-      "maturity_factor": 0.803936,
+      "maturity_factor": 0.8039356605065024,
       "chain_multiplier": 1.01
     },
     {
       "slug": "waterline",
       "name": "Waterline",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 52,
       "implied_value_usd": 13144460,
       "farm_steps": [
@@ -1093,15 +1683,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22598710,
+      "change_7d": 5.0287,
+      "listed_at": "2026-09-03",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.050287,
-      "maturity_factor": 0.759856,
+      "maturity_factor": 0.7598562628336756,
       "chain_multiplier": 1.04
     },
     {
       "slug": "risex",
       "name": "RISEx",
+      "category": "Derivatives",
+      "chains": [
+        "RISE"
+      ],
       "rank": 53,
       "implied_value_usd": 13070898,
       "farm_steps": [
@@ -1114,15 +1712,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 21553525,
+      "change_7d": -2.5101,
+      "listed_at": "2026-05-06",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 0.974899,
-      "maturity_factor": 0.776283,
+      "maturity_factor": 0.7762833675564682,
       "chain_multiplier": 1.01
     },
     {
       "slug": "infinifi",
       "name": "infiniFi",
+      "category": "Yield",
+      "chains": [
+        "Ethereum",
+        "Monad",
+        "Base"
+      ],
       "rank": 54,
       "implied_value_usd": 12848815,
       "farm_steps": [
@@ -1135,15 +1743,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 70716524,
+      "change_7d": -3.2771,
+      "listed_at": "2025-05-28",
       "capital_usd": 59,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 0.967229,
-      "maturity_factor": 0.823238,
+      "maturity_factor": 0.8232375085557837,
       "chain_multiplier": 1.081912
     },
     {
       "slug": "xion-finance",
       "name": "XION Finance",
+      "category": "Chain",
+      "chains": [
+        "XION"
+      ],
       "rank": 55,
       "implied_value_usd": 12433114,
       "farm_steps": [
@@ -1156,15 +1772,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22019898,
+      "change_7d": -3.5701,
+      "listed_at": "2025-07-11",
       "capital_usd": 50,
-      "category_multiple": 0.709407,
+      "category_multiple": 0.7094071875170829,
+      "category_comparable_count": 1,
+      "category_comparable_median": 3.0264431251024972,
       "growth_factor": 0.964299,
-      "maturity_factor": 0.817214,
+      "maturity_factor": 0.8172142368240931,
       "chain_multiplier": 1.01
     },
     {
       "slug": "liminal-basis",
       "name": "Liminal Basis",
+      "category": "Basis Trading",
+      "chains": [
+        "Hyperliquid L1"
+      ],
       "rank": 56,
       "implied_value_usd": 12407582,
       "farm_steps": [
@@ -1177,15 +1801,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 25662087,
+      "change_7d": 21.2736,
+      "listed_at": "2025-07-26",
       "capital_usd": 50,
-      "category_multiple": 0.484244,
+      "category_multiple": 0.48424397826142745,
+      "category_comparable_count": 7,
+      "category_comparable_median": 0.6544182484481614,
       "growth_factor": 1.212736,
-      "maturity_factor": 0.815161,
+      "maturity_factor": 0.8151608487337441,
       "chain_multiplier": 1.01
     },
     {
       "slug": "suibridge",
       "name": "SuiBridge",
+      "category": "Canonical Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 57,
       "implied_value_usd": 12132496,
       "farm_steps": [
@@ -1198,15 +1830,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 26744091,
+      "change_7d": -7.869,
+      "listed_at": "2024-10-10",
       "capital_usd": 50,
-      "category_multiple": 0.553934,
+      "category_multiple": 0.5539338708103405,
+      "category_comparable_count": 8,
+      "category_comparable_median": 0.7463925400668032,
       "growth_factor": 0.92131,
-      "maturity_factor": 0.854723,
+      "maturity_factor": 0.8547227926078029,
       "chain_multiplier": 1.04
     },
     {
       "slug": "shift-defi",
       "name": "Shift DeFi",
+      "category": "Yield",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 58,
       "implied_value_usd": 11842225,
       "farm_steps": [
@@ -1219,15 +1859,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 47599147,
+      "change_7d": 4448.4747,
+      "listed_at": "2026-09-30",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 1.5,
-      "maturity_factor": 0.75616,
+      "maturity_factor": 0.7561601642710473,
       "chain_multiplier": 1.04
     },
     {
       "slug": "drakewell",
       "name": "Drakewell",
+      "category": "Basis Trading",
+      "chains": [
+        "Arbitrum",
+        "Ethereum",
+        "Aleo"
+      ],
       "rank": 59,
       "implied_value_usd": 11487815,
       "farm_steps": [
@@ -1240,15 +1890,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 28230939,
+      "change_7d": 3.2554,
+      "listed_at": "2026-10-02",
       "capital_usd": 50,
-      "category_multiple": 0.484244,
+      "category_multiple": 0.48424397826142745,
+      "category_comparable_count": 7,
+      "category_comparable_median": 0.6544182484481614,
       "growth_factor": 1.032554,
-      "maturity_factor": 0.755886,
+      "maturity_factor": 0.755886379192334,
       "chain_multiplier": 1.07666
     },
     {
       "slug": "scroll-bridge",
       "name": "Scroll Bridge",
+      "category": "Canonical Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 60,
       "implied_value_usd": 11264386,
       "farm_steps": [
@@ -1261,8 +1919,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 27186001,
+      "change_7d": -10.0956,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.553934,
+      "category_multiple": 0.5539338708103405,
+      "category_comparable_count": 8,
+      "category_comparable_median": 0.7463925400668032,
       "growth_factor": 0.899044,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.04
@@ -1270,6 +1932,10 @@
     {
       "slug": "manta-cedefi",
       "name": "Manta CeDeFi",
+      "category": "Basis Trading",
+      "chains": [
+        "Manta"
+      ],
       "rank": 61,
       "implied_value_usd": 11261777,
       "farm_steps": [
@@ -1282,15 +1948,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 26526263,
+      "change_7d": -0.6679,
+      "listed_at": "2024-05-23",
       "capital_usd": 50,
-      "category_multiple": 0.484244,
+      "category_multiple": 0.48424397826142745,
+      "category_comparable_count": 7,
+      "category_comparable_median": 0.6544182484481614,
       "growth_factor": 0.993321,
-      "maturity_factor": 0.873888,
+      "maturity_factor": 0.8738877481177276,
       "chain_multiplier": 1.01
     },
     {
       "slug": "flowdesk",
       "name": "Flowdesk",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 62,
       "implied_value_usd": 11239055,
       "farm_steps": [
@@ -1303,15 +1977,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 28044836,
+      "change_7d": -27.6485,
+      "listed_at": "2026-09-02",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.723515,
-      "maturity_factor": 0.759993,
+      "maturity_factor": 0.7599931553730321,
       "chain_multiplier": 1.04
     },
     {
       "slug": "nemo-trading",
       "name": "NEMO Trading",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 63,
       "implied_value_usd": 11011717,
       "farm_steps": [
@@ -1324,15 +2006,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 20088275,
+      "change_7d": -0.7307,
+      "listed_at": "2026-09-19",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.992693,
-      "maturity_factor": 0.757666,
+      "maturity_factor": 0.7576659822039699,
       "chain_multiplier": 1.04
     },
     {
       "slug": "hakutora",
       "name": "Hakutora",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 64,
       "implied_value_usd": 9989198,
       "farm_steps": [
@@ -1345,15 +2035,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 16194180,
+      "change_7d": 2.6714,
+      "listed_at": "2025-05-20",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 1.026714,
-      "maturity_factor": 0.824333,
+      "maturity_factor": 0.8243326488706365,
       "chain_multiplier": 1.04
     },
     {
       "slug": "9summits",
       "name": "9Summits",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Avalanche",
+        "Base",
+        "Unichain"
+      ],
       "rank": 65,
       "implied_value_usd": 9412888,
       "farm_steps": [
@@ -1366,15 +2067,33 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 16040161,
+      "change_7d": -7.948,
+      "listed_at": "2025-05-20",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.92052,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.10355
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.1035502400000001
     },
     {
       "slug": "metric-v1",
       "name": "Metric V1",
+      "category": "Dexs",
+      "chains": [
+        "Ethereum",
+        "Robinhood Chain",
+        "Binance",
+        "Elysium Kinetiq",
+        "Base",
+        "Polygon",
+        "Arbitrum",
+        "Avalanche",
+        "Hyperliquid L1",
+        "Monad",
+        "MegaETH"
+      ],
       "rank": 66,
       "implied_value_usd": 9399005,
       "farm_steps": [
@@ -1387,15 +2106,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 24619534,
+      "change_7d": 33.6101,
+      "listed_at": "2026-10-12",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 1.336101,
-      "maturity_factor": 0.754517,
-      "chain_multiplier": 1.212615
+      "maturity_factor": 0.754517453798768,
+      "chain_multiplier": 1.2126152219131445
     },
     {
       "slug": "yuzu-money",
       "name": "Yuzu Money",
+      "category": "Yield",
+      "chains": [
+        "Plasma",
+        "Monad",
+        "Ethereum"
+      ],
       "rank": 67,
       "implied_value_usd": 9336224,
       "farm_steps": [
@@ -1408,15 +2137,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 57346091,
+      "change_7d": -9.0455,
+      "listed_at": "2025-11-14",
       "capital_usd": 54,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 0.909545,
-      "maturity_factor": 0.799966,
+      "maturity_factor": 0.7999657768651609,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "mezo-earn",
       "name": "Mezo Earn",
+      "category": "Governance Incentives",
+      "chains": [
+        "Mezo"
+      ],
       "rank": 68,
       "implied_value_usd": 8874005,
       "farm_steps": [
@@ -1429,15 +2166,28 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 53638061,
+      "change_7d": -12.2175,
+      "listed_at": "2026-05-12",
       "capital_usd": 52,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.877825,
-      "maturity_factor": 0.775462,
+      "maturity_factor": 0.7754620123203285,
       "chain_multiplier": 1.01
     },
     {
       "slug": "arrakis-modular",
       "name": "Arrakis Modular",
+      "category": "Liquidity Manager",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Arbitrum",
+        "Plasma",
+        "Robinhood Chain",
+        "Binance"
+      ],
       "rank": 69,
       "implied_value_usd": 8746300,
       "farm_steps": [
@@ -1450,15 +2200,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 48488073,
+      "change_7d": -9.91,
+      "listed_at": "2024-10-23",
       "capital_usd": 50,
-      "category_multiple": 0.207508,
+      "category_multiple": 0.20750769259990884,
+      "category_comparable_count": 1,
+      "category_comparable_median": 0.01504615559945297,
       "growth_factor": 0.9009,
-      "maturity_factor": 0.852943,
-      "chain_multiplier": 1.13125
+      "maturity_factor": 0.852943189596167,
+      "chain_multiplier": 1.1312498919800003
     },
     {
       "slug": "reti-pooling",
       "name": "Reti Pooling",
+      "category": "Staking Pool",
+      "chains": [
+        "Algorand"
+      ],
       "rank": 70,
       "implied_value_usd": 8715331,
       "farm_steps": [
@@ -1471,15 +2229,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 65254391,
+      "change_7d": -10.6865,
+      "listed_at": "2025-01-24",
       "capital_usd": 57,
-      "category_multiple": 0.176217,
+      "category_multiple": 0.17621655599052702,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.0017579459668445245,
       "growth_factor": 0.893135,
-      "maturity_factor": 0.840212,
+      "maturity_factor": 0.8402121834360028,
       "chain_multiplier": 1.01
     },
     {
       "slug": "project-x",
       "name": "Project X",
+      "category": "Dexs",
+      "chains": [
+        "Hyperliquid L1"
+      ],
       "rank": 71,
       "implied_value_usd": 8631862,
       "farm_steps": [
@@ -1492,15 +2258,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 34354598,
+      "change_7d": -2.4436,
+      "listed_at": "2025-07-16",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.975564,
-      "maturity_factor": 0.81653,
+      "maturity_factor": 0.8165297741273101,
       "chain_multiplier": 1.01
     },
     {
       "slug": "firelight",
       "name": "Firelight",
+      "category": "Insurance",
+      "chains": [
+        "Flare"
+      ],
       "rank": 72,
       "implied_value_usd": 8495859,
       "farm_steps": [
@@ -1513,15 +2287,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 51272081,
+      "change_7d": -14.4069,
+      "listed_at": "2025-12-09",
       "capital_usd": 51,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.855931,
-      "maturity_factor": 0.796543,
+      "maturity_factor": 0.7965434633812457,
       "chain_multiplier": 1.01
     },
     {
       "slug": "pacifica-bridge",
       "name": "Pacifica Bridge",
+      "category": "Bridge",
+      "chains": [
+        "Solana"
+      ],
       "rank": 73,
       "implied_value_usd": 8450449,
       "farm_steps": [
@@ -1534,15 +2316,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 24557221,
+      "change_7d": 5.0591,
+      "listed_at": "2026-10-13",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 1.050591,
-      "maturity_factor": 0.754381,
+      "maturity_factor": 0.7543805612594113,
       "chain_multiplier": 1.045
     },
     {
       "slug": "exponent-yield-exchange",
       "name": "Exponent Yield Exchange",
+      "category": "Yield",
+      "chains": [
+        "Solana"
+      ],
       "rank": 74,
       "implied_value_usd": 8242284,
       "farm_steps": [
@@ -1555,15 +2345,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 45177163,
+      "change_7d": -1.3185,
+      "listed_at": "2025-02-03",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 0.986815,
-      "maturity_factor": 0.838843,
+      "maturity_factor": 0.8388432580424368,
       "chain_multiplier": 1.045
     },
     {
       "slug": "zircuit-staking",
       "name": "Zircuit Staking",
+      "category": "Farm",
+      "chains": [
+        "Ethereum",
+        "Zircuit"
+      ],
       "rank": 75,
       "implied_value_usd": 8232242,
       "farm_steps": [
@@ -1576,15 +2375,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 44375067,
+      "change_7d": -17.0525,
+      "listed_at": "2024-03-04",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.829475,
-      "maturity_factor": 0.884839,
+      "maturity_factor": 0.884839151266256,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "vishwa",
       "name": "Vishwa",
+      "category": "Anchor BTC",
+      "chains": [
+        "Bitcoin",
+        "Sui"
+      ],
       "rank": 76,
       "implied_value_usd": 8022042,
       "farm_steps": [
@@ -1597,15 +2405,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 45307916,
+      "change_7d": -10.645,
+      "listed_at": "2025-09-22",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
-      "growth_factor": 0.89355,
-      "maturity_factor": 0.807221,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
+      "growth_factor": 0.8935500000000001,
+      "maturity_factor": 0.807221081451061,
       "chain_multiplier": 1.0201
     },
     {
       "slug": "obeliskbtc",
       "name": "ObeliskBTC",
+      "category": "Bridge",
+      "chains": [
+        "Bitcoin"
+      ],
       "rank": 77,
       "implied_value_usd": 7946969,
       "farm_steps": [
@@ -1618,15 +2434,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 23654248,
+      "change_7d": -6.3782,
+      "listed_at": "2024-10-07",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.936218,
-      "maturity_factor": 0.855133,
+      "maturity_factor": 0.8551334702258727,
       "chain_multiplier": 1.01
     },
     {
       "slug": "wtao",
       "name": "wTAO",
+      "category": "Bridge",
+      "chains": [
+        "Bittensor"
+      ],
       "rank": 78,
       "implied_value_usd": 7738479,
       "farm_steps": [
@@ -1639,15 +2463,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 25298588,
+      "change_7d": -5.4179,
+      "listed_at": "2026-06-16",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.945821,
-      "maturity_factor": 0.770671,
+      "maturity_factor": 0.7706707734428474,
       "chain_multiplier": 1.01
     },
     {
       "slug": "3f",
       "name": "3F",
+      "category": "Leveraged Farming",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 79,
       "implied_value_usd": 7589251,
       "farm_steps": [
@@ -1660,15 +2492,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 40368186,
+      "change_7d": -0.0399,
+      "listed_at": "2026-05-25",
       "capital_usd": 50,
-      "category_multiple": 0.233742,
+      "category_multiple": 0.23374210669694173,
+      "category_comparable_count": 1,
+      "category_comparable_median": 0.17245264018165038,
       "growth_factor": 0.999601,
-      "maturity_factor": 0.773682,
+      "maturity_factor": 0.7736824093086927,
       "chain_multiplier": 1.04
     },
     {
       "slug": "noon",
       "name": "Noon",
+      "category": "Yield",
+      "chains": [
+        "Ethereum",
+        "Sophon",
+        "zkSync Era",
+        "TAC"
+      ],
       "rank": 80,
       "implied_value_usd": 7348862,
       "farm_steps": [
@@ -1681,15 +2524,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 38329220,
+      "change_7d": 1.1384,
+      "listed_at": "2025-02-03",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 1.011384,
-      "maturity_factor": 0.838843,
-      "chain_multiplier": 1.071513
+      "maturity_factor": 0.8388432580424368,
+      "chain_multiplier": 1.0715130400000001
     },
     {
       "slug": "bdex-v3",
       "name": "BDEX V3",
+      "category": "Dexs",
+      "chains": [
+        "BOT Chain"
+      ],
       "rank": 81,
       "implied_value_usd": 7289423,
       "farm_steps": [
@@ -1702,15 +2553,36 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 30543993,
+      "change_7d": -0.6055,
+      "listed_at": "2026-08-24",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.993945,
-      "maturity_factor": 0.761225,
+      "maturity_factor": 0.7612251882272416,
       "chain_multiplier": 1.01
     },
     {
       "slug": "zoomex",
       "name": "Zoomex",
+      "category": "CEX",
+      "chains": [
+        "Ethereum",
+        "Tron",
+        "Ripple",
+        "Binance",
+        "Solana",
+        "Mantle",
+        "Arbitrum",
+        "Base",
+        "Polygon",
+        "Optimism",
+        "Bitcoin",
+        "Doge",
+        "Sonic",
+        "EOS"
+      ],
       "rank": 82,
       "implied_value_usd": 7275425,
       "farm_steps": [
@@ -1723,15 +2595,28 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 43462874,
+      "change_7d": 15.092,
+      "listed_at": "2025-05-26",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 1.15092,
-      "maturity_factor": 0.823511,
-      "chain_multiplier": 1.29899
+      "maturity_factor": 0.8235112936344969,
+      "chain_multiplier": 1.298989819030498
     },
     {
       "slug": "ring-few",
       "name": "Ring Few",
+      "category": "Bridge",
+      "chains": [
+        "Ethereum",
+        "Hyperliquid L1",
+        "Binance",
+        "Base",
+        "Arbitrum",
+        "Blast"
+      ],
       "rank": 83,
       "implied_value_usd": 7273329,
       "farm_steps": [
@@ -1744,15 +2629,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 24615549,
+      "change_7d": -28.9758,
+      "listed_at": "2024-03-02",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.710242,
-      "maturity_factor": 0.885113,
-      "chain_multiplier": 1.13125
+      "maturity_factor": 0.8851129363449692,
+      "chain_multiplier": 1.13124989198
     },
     {
       "slug": "syntetika",
       "name": "Syntetika",
+      "category": "Risk Curators",
+      "chains": [
+        "Base"
+      ],
       "rank": 84,
       "implied_value_usd": 7236367,
       "farm_steps": [
@@ -1765,15 +2658,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 14612979,
+      "change_7d": -9.956,
+      "listed_at": "2026-08-19",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.90044,
-      "maturity_factor": 0.76191,
+      "maturity_factor": 0.7619096509240246,
       "chain_multiplier": 1.03
     },
     {
       "slug": "flux-finance",
       "name": "Flux Finance",
+      "category": "Lending",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 85,
       "implied_value_usd": 6832144,
       "farm_steps": [
@@ -1786,15 +2687,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 43614505,
+      "change_7d": -0.0568,
+      "listed_at": "2023-02-15",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.999432,
-      "maturity_factor": 0.937269,
+      "maturity_factor": 0.9372689938398358,
       "chain_multiplier": 1.04
     },
     {
       "slug": "wrapped",
       "name": "Wrapped",
+      "category": "Bridge",
+      "chains": [
+        "Ripple",
+        "Celo",
+        "Ethereum"
+      ],
       "rank": 86,
       "implied_value_usd": 6811466,
       "farm_steps": [
@@ -1807,15 +2718,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 18094141,
+      "change_7d": -14.2432,
+      "listed_at": "2021-12-14",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.857568,
-      "maturity_factor": 0.995859,
+      "maturity_factor": 0.9958590006844628,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "reya-perps",
       "name": "Reya Perps",
+      "category": "Derivatives",
+      "chains": [
+        "Reya Network"
+      ],
       "rank": 87,
       "implied_value_usd": 6684530,
       "farm_steps": [
@@ -1828,15 +2747,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 9800082,
+      "change_7d": -1.3282,
+      "listed_at": "2024-08-13",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 0.986718,
-      "maturity_factor": 0.862663,
+      "maturity_factor": 0.862662559890486,
       "chain_multiplier": 1.01
     },
     {
       "slug": "xrpl-dex",
       "name": "XRPL DEX",
+      "category": "Dexs",
+      "chains": [
+        "Ripple"
+      ],
       "rank": 88,
       "implied_value_usd": 6619796,
       "farm_steps": [
@@ -1849,15 +2776,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 27708356,
+      "change_7d": -12.4626,
+      "listed_at": "2024-07-25",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.875374,
-      "maturity_factor": 0.865264,
+      "maturity_factor": 0.8652635181382615,
       "chain_multiplier": 1.01
     },
     {
       "slug": "aera-v2",
       "name": "Aera V2",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Polygon",
+        "Arbitrum"
+      ],
       "rank": 89,
       "implied_value_usd": 6549854,
       "farm_steps": [
@@ -1870,15 +2808,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 40478203,
+      "change_7d": -8.7102,
+      "listed_at": "2024-03-19",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.912898,
-      "maturity_factor": 0.882786,
-      "chain_multiplier": 1.11994
+      "maturity_factor": 0.882785763175907,
+      "chain_multiplier": 1.1199396000000001
     },
     {
       "slug": "sx-rollup-bridge",
       "name": "SX Rollup Bridge",
+      "category": "Canonical Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 90,
       "implied_value_usd": 6429988,
       "farm_steps": [
@@ -1891,8 +2837,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 13735209,
+      "change_7d": 1.5766,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.553934,
+      "category_multiple": 0.5539338708103405,
+      "category_comparable_count": 8,
+      "category_comparable_median": 0.7463925400668032,
       "growth_factor": 1.015766,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.04
@@ -1900,6 +2850,10 @@
     {
       "slug": "plasma-one",
       "name": "Plasma One",
+      "category": "Crypto Card Issuer",
+      "chains": [
+        "Plasma"
+      ],
       "rank": 91,
       "implied_value_usd": 6220043,
       "farm_steps": [
@@ -1912,8 +2866,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 31926318,
+      "change_7d": 0.202,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 1.00202,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.01
@@ -1921,6 +2879,10 @@
     {
       "slug": "starknet-btc-staking",
       "name": "Starknet BTC Staking",
+      "category": "Staking Pool",
+      "chains": [
+        "Starknet"
+      ],
       "rank": 92,
       "implied_value_usd": 6193410,
       "farm_steps": [
@@ -1933,15 +2895,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 46615368,
+      "change_7d": -4.3421,
+      "listed_at": "2026-04-06",
       "capital_usd": 50,
-      "category_multiple": 0.176217,
+      "category_multiple": 0.17621655599052702,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.0017579459668445245,
       "growth_factor": 0.956579,
-      "maturity_factor": 0.78039,
+      "maturity_factor": 0.7803901437371663,
       "chain_multiplier": 1.01
     },
     {
       "slug": "makina",
       "name": "Makina",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ethereum",
+        "Base"
+      ],
       "rank": 93,
       "implied_value_usd": 5952470,
       "farm_steps": [
@@ -1954,15 +2925,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 38711093,
+      "change_7d": -0.066,
+      "listed_at": "2025-11-05",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.99934,
-      "maturity_factor": 0.801198,
-      "chain_multiplier": 1.0712
+      "maturity_factor": 0.8011978097193703,
+      "chain_multiplier": 1.0712000000000002
     },
     {
       "slug": "project-0",
       "name": "Project 0",
+      "category": "Lending",
+      "chains": [
+        "Solana"
+      ],
       "rank": 94,
       "implied_value_usd": 5881041,
       "farm_steps": [
@@ -1975,15 +2954,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 48867055,
+      "change_7d": -9.8516,
+      "listed_at": "2025-12-24",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.901484,
-      "maturity_factor": 0.79449,
+      "maturity_factor": 0.7944900752908967,
       "chain_multiplier": 1.045
     },
     {
       "slug": "current",
       "name": "Current",
+      "category": "Lending",
+      "chains": [
+        "Sui"
+      ],
       "rank": 95,
       "implied_value_usd": 5804726,
       "farm_steps": [
@@ -1996,15 +2983,61 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 49631964,
+      "change_7d": -7.8161,
+      "listed_at": "2026-03-31",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.921839,
-      "maturity_factor": 0.781211,
+      "maturity_factor": 0.781211498973306,
       "chain_multiplier": 1.01
     },
     {
       "slug": "vfat.io",
       "name": "vfat.io",
+      "category": "Yield Aggregator",
+      "chains": [
+        "Base",
+        "Ethereum",
+        "Hyperliquid L1",
+        "Robinhood Chain",
+        "Arbitrum",
+        "Monad",
+        "Binance",
+        "Optimism",
+        "Avalanche",
+        "Polygon",
+        "Arc",
+        "Unichain",
+        "Ink",
+        "Sonic",
+        "Hemi",
+        "Cronos",
+        "Elysium Kinetiq",
+        "Celo",
+        "Linea",
+        "Plasma",
+        "Katana",
+        "Berachain",
+        "World Chain",
+        "Mantle",
+        "Peaq",
+        "MegaETH",
+        "Pulse",
+        "Soneium",
+        "Fraxtal",
+        "Scroll",
+        "Mode",
+        "BOT Chain",
+        "Tempo",
+        "Telos",
+        "Etherlink",
+        "MetalL2",
+        "ZetaChain",
+        "Fantom",
+        "Lisk"
+      ],
       "rank": 96,
       "implied_value_usd": 5784715,
       "farm_steps": [
@@ -2017,15 +3050,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 28071625,
+      "change_7d": -11.1034,
+      "listed_at": "2024-05-14",
       "capital_usd": 50,
-      "category_multiple": 0.20376,
+      "category_multiple": 0.2037597521519353,
+      "category_comparable_count": 4,
+      "category_comparable_median": 0.1509594423418544,
       "growth_factor": 0.888966,
-      "maturity_factor": 0.87512,
+      "maturity_factor": 0.8751197809719371,
       "chain_multiplier": 1.3
     },
     {
       "slug": "tau-labs",
       "name": "TAU Labs",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Flow",
+        "Plasma"
+      ],
       "rank": 97,
       "implied_value_usd": 5781422,
       "farm_steps": [
@@ -2038,15 +3082,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 10548591,
+      "change_7d": -10.0236,
+      "listed_at": "2025-12-17",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.899764,
-      "maturity_factor": 0.795448,
-      "chain_multiplier": 1.092731
+      "maturity_factor": 0.7954483230663929,
+      "chain_multiplier": 1.0927311200000003
     },
     {
       "slug": "sharpbyte-capital",
       "name": "SharpByte Capital",
+      "category": "Risk Curators",
+      "chains": [
+        "Monad",
+        "Ethereum",
+        "Fluent"
+      ],
       "rank": 98,
       "implied_value_usd": 5530223,
       "farm_steps": [
@@ -2059,15 +3113,31 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 10649873,
+      "change_7d": -8.0812,
+      "listed_at": "2026-09-03",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.919188,
-      "maturity_factor": 0.759856,
+      "maturity_factor": 0.7598562628336756,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "coin8",
       "name": "Coin8",
+      "category": "CEX",
+      "chains": [
+        "Bitcoin",
+        "Ethereum",
+        "Binance",
+        "Tron",
+        "Arbitrum",
+        "Solana",
+        "Ripple",
+        "Polygon",
+        "Avalanche"
+      ],
       "rank": 99,
       "implied_value_usd": 5436117,
       "farm_steps": [
@@ -2080,15 +3150,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 43598429,
+      "change_7d": -9.4554,
+      "listed_at": "2025-01-27",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.905446,
-      "maturity_factor": 0.839802,
-      "chain_multiplier": 1.206033
+      "maturity_factor": 0.8398015058179329,
+      "chain_multiplier": 1.206033395640096
     },
     {
       "slug": "mantle-restaking",
       "name": "Mantle Restaking",
+      "category": "Liquid Restaking",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 100,
       "implied_value_usd": 5389736,
       "farm_steps": [
@@ -2101,15 +3179,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 30980107,
+      "change_7d": -13.6638,
+      "listed_at": "2024-11-13",
       "capital_usd": 50,
-      "category_multiple": 0.227932,
+      "category_multiple": 0.22793155383564995,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.18276043842477482,
       "growth_factor": 0.863362,
-      "maturity_factor": 0.850068,
+      "maturity_factor": 0.8500684462696784,
       "chain_multiplier": 1.04
     },
     {
       "slug": "rysk-v12",
       "name": "Rysk V12",
+      "category": "Options Vault",
+      "chains": [
+        "Hyperliquid L1",
+        "Ethereum"
+      ],
       "rank": 101,
       "implied_value_usd": 5356508,
       "farm_steps": [
@@ -2122,15 +3209,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 28456225,
+      "change_7d": -8.8709,
+      "listed_at": "2025-07-11",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.911291,
-      "maturity_factor": 0.817214,
+      "maturity_factor": 0.8172142368240931,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "bitlayer-ybtc-family",
       "name": "Bitlayer YBTC Family",
+      "category": "Anchor BTC",
+      "chains": [
+        "Bitcoin",
+        "Ethereum"
+      ],
       "rank": 102,
       "implied_value_usd": 5219499,
       "farm_steps": [
@@ -2143,15 +3239,34 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 27174703,
+      "change_7d": -10.4927,
+      "listed_at": "2024-11-21",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.895073,
-      "maturity_factor": 0.848973,
+      "maturity_factor": 0.8489733059548255,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "mev-capital",
       "name": "MEV Capital",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Hyperliquid L1",
+        "Base",
+        "Sui",
+        "Avalanche",
+        "Arbitrum",
+        "Unichain",
+        "Sonic",
+        "Polygon",
+        "Plume",
+        "Berachain",
+        "Binance"
+      ],
       "rank": 103,
       "implied_value_usd": 5203559,
       "farm_steps": [
@@ -2164,15 +3279,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8320641,
+      "change_7d": -11.6085,
+      "listed_at": "2025-05-20",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.883915,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.224741
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.2247413741322752
     },
     {
       "slug": "antarctic",
       "name": "Antarctic",
+      "category": "Derivatives",
+      "chains": [
+        "Arbitrum"
+      ],
       "rank": 104,
       "implied_value_usd": 5186496,
       "farm_steps": [
@@ -2185,15 +3308,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8365056,
+      "change_7d": -4.5952,
+      "listed_at": "2025-11-20",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 0.954048,
-      "maturity_factor": 0.799144,
+      "maturity_factor": 0.7991444216290212,
       "chain_multiplier": 1.025
     },
     {
       "slug": "communityv3",
       "name": "CommunityV3",
+      "category": "Dexs",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 105,
       "implied_value_usd": 5036790,
       "farm_steps": [
@@ -2206,15 +3337,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 17407286,
+      "change_7d": 18.2229,
+      "listed_at": "2026-10-19",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 1.182229,
-      "maturity_factor": 0.753559,
+      "maturity_factor": 0.7535592060232718,
       "chain_multiplier": 1.04
     },
     {
       "slug": "felix-vaults",
       "name": "Felix Vaults",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Hyperliquid L1"
+      ],
       "rank": 106,
       "implied_value_usd": 5009651,
       "farm_steps": [
@@ -2227,15 +3366,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 31906510,
+      "change_7d": 5.3279,
+      "listed_at": "2025-05-28",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 1.053279,
-      "maturity_factor": 0.823238,
+      "maturity_factor": 0.8232375085557837,
       "chain_multiplier": 1.01
     },
     {
       "slug": "bigone",
       "name": "BigONE",
+      "category": "CEX",
+      "chains": [
+        "Bitcoin",
+        "Ethereum",
+        "Tron",
+        "Solana"
+      ],
       "rank": 107,
       "implied_value_usd": 4925553,
       "farm_steps": [
@@ -2248,15 +3398,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 46299338,
+      "change_7d": -11.7777,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.882223,
       "maturity_factor": 0.8,
-      "chain_multiplier": 1.108645
+      "chain_multiplier": 1.10864468
     },
     {
       "slug": "bisonfi",
       "name": "BisonFi",
+      "category": "Dexs",
+      "chains": [
+        "Solana"
+      ],
       "rank": 108,
       "implied_value_usd": 4813449,
       "farm_steps": [
@@ -2269,15 +3427,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 20001683,
+      "change_7d": -3.095,
+      "listed_at": "2026-08-26",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.96905,
-      "maturity_factor": 0.760951,
+      "maturity_factor": 0.7609514031485284,
       "chain_multiplier": 1.045
     },
     {
       "slug": "bulk",
       "name": "BULK",
+      "category": "Derivatives",
+      "chains": [
+        "Solana"
+      ],
       "rank": 109,
       "implied_value_usd": 4804036,
       "farm_steps": [
@@ -2290,15 +3456,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7473241,
+      "change_7d": 0.4638,
+      "listed_at": "2026-06-08",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 1.004638,
-      "maturity_factor": 0.771766,
+      "maturity_factor": 0.7717659137577002,
       "chain_multiplier": 1.045
     },
     {
       "slug": "bouncebit-prime",
       "name": "BounceBit Prime",
+      "category": "Basis Trading",
+      "chains": [
+        "Binance",
+        "Ethereum"
+      ],
       "rank": 110,
       "implied_value_usd": 4660286,
       "farm_steps": [
@@ -2311,15 +3486,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 11443356,
+      "change_7d": 0.0165,
+      "listed_at": "2025-11-10",
       "capital_usd": 50,
-      "category_multiple": 0.484244,
+      "category_multiple": 0.48424397826142745,
+      "category_comparable_count": 7,
+      "category_comparable_median": 0.6544182484481614,
       "growth_factor": 1.000165,
-      "maturity_factor": 0.800513,
+      "maturity_factor": 0.8005133470225873,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "plasma-saving-vaults",
       "name": "Plasma Saving Vaults",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Plasma"
+      ],
       "rank": 111,
       "implied_value_usd": 4647889,
       "farm_steps": [
@@ -2332,15 +3515,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 31744697,
+      "change_7d": 0.2368,
+      "listed_at": "2025-09-26",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 1.002368,
-      "maturity_factor": 0.806674,
+      "maturity_factor": 0.8066735112936345,
       "chain_multiplier": 1.01
     },
     {
       "slug": "abstract",
       "name": "Abstract",
+      "category": "Chain",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 112,
       "implied_value_usd": 4647260,
       "farm_steps": [
@@ -2353,8 +3544,12 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 9383801,
+      "change_7d": -16.0928,
+      "listed_at": null,
       "capital_usd": 50,
-      "category_multiple": 0.709407,
+      "category_multiple": 0.7094071875170829,
+      "category_comparable_count": 1,
+      "category_comparable_median": 3.0264431251024972,
       "growth_factor": 0.839072,
       "maturity_factor": 0.8,
       "chain_multiplier": 1.04
@@ -2362,6 +3557,10 @@
     {
       "slug": "circle-bitcoin",
       "name": "Circle Bitcoin",
+      "category": "Bridge",
+      "chains": [
+        "Bitcoin"
+      ],
       "rank": 113,
       "implied_value_usd": 4624132,
       "farm_steps": [
@@ -2374,15 +3573,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 17202268,
+      "change_7d": -16.9412,
+      "listed_at": "2026-06-12",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.830588,
-      "maturity_factor": 0.771218,
+      "maturity_factor": 0.7712183436002737,
       "chain_multiplier": 1.01
     },
     {
       "slug": "origami-finance",
       "name": "Origami Finance",
+      "category": "Leveraged Farming",
+      "chains": [
+        "Ethereum",
+        "Plasma",
+        "Berachain"
+      ],
       "rank": 114,
       "implied_value_usd": 4531431,
       "farm_steps": [
@@ -2395,15 +3604,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 28834258,
+      "change_7d": -27.5934,
+      "listed_at": "2024-05-13",
       "capital_usd": 50,
-      "category_multiple": 0.233742,
+      "category_multiple": 0.23374210669694173,
+      "category_comparable_count": 1,
+      "category_comparable_median": 0.17245264018165038,
       "growth_factor": 0.724066,
-      "maturity_factor": 0.875257,
+      "maturity_factor": 0.8752566735112937,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "block-analitica",
       "name": "Block Analitica",
+      "category": "Risk Curators",
+      "chains": [
+        "Base",
+        "Ethereum",
+        "Arbitrum",
+        "Sonic"
+      ],
       "rank": 115,
       "implied_value_usd": 4454597,
       "farm_steps": [
@@ -2416,15 +3636,28 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7739360,
+      "change_7d": -10.154,
+      "listed_at": "2025-05-20",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.89846,
-      "maturity_factor": 0.824333,
-      "chain_multiplier": 1.10896
+      "maturity_factor": 0.8243326488706365,
+      "chain_multiplier": 1.1089598
     },
     {
       "slug": "theo-network-thbill",
       "name": "Theo Network thBill",
+      "category": "RWA",
+      "chains": [
+        "Stable",
+        "Ethereum",
+        "Arbitrum",
+        "Base",
+        "Monad",
+        "Solana"
+      ],
       "rank": 116,
       "implied_value_usd": 4436173,
       "farm_steps": [
@@ -2437,15 +3670,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 11810283,
+      "change_7d": 94.0117,
+      "listed_at": "2025-09-10",
       "capital_usd": 50,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.5,
-      "maturity_factor": 0.808864,
-      "chain_multiplier": 1.170452
+      "maturity_factor": 0.8088637919233401,
+      "chain_multiplier": 1.17045162091
     },
     {
       "slug": "turboflow-perps",
       "name": "TurboFlow Perps",
+      "category": "Derivatives",
+      "chains": [
+        "Binance",
+        "Solana"
+      ],
       "rank": 117,
       "implied_value_usd": 4426798,
       "farm_steps": [
@@ -2458,15 +3700,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 6664850,
+      "change_7d": -0.9998,
+      "listed_at": "2025-11-05",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 0.990002,
-      "maturity_factor": 0.801198,
+      "maturity_factor": 0.8011978097193703,
       "chain_multiplier": 1.05545
     },
     {
       "slug": "hylo-protocol",
       "name": "Hylo Protocol",
+      "category": "Dual-Token Stablecoin",
+      "chains": [
+        "Solana"
+      ],
       "rank": 118,
       "implied_value_usd": 4423206,
       "farm_steps": [
@@ -2479,15 +3729,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 29173196,
+      "change_7d": -15.3091,
+      "listed_at": "2025-07-29",
       "capital_usd": 50,
-      "category_multiple": 0.210269,
+      "category_multiple": 0.2102691873424993,
+      "category_comparable_count": 1,
+      "category_comparable_median": 0.03161512405499588,
       "growth_factor": 0.846909,
-      "maturity_factor": 0.81475,
+      "maturity_factor": 0.8147501711156742,
       "chain_multiplier": 1.045
     },
     {
       "slug": "pangolins",
       "name": "Pangolins",
+      "category": "Risk Curators",
+      "chains": [
+        "Base",
+        "Binance"
+      ],
       "rank": 119,
       "implied_value_usd": 4393460,
       "farm_steps": [
@@ -2500,15 +3759,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8184353,
+      "change_7d": -3.0776,
+      "listed_at": "2026-09-04",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.969224,
-      "maturity_factor": 0.759719,
+      "maturity_factor": 0.7597193702943189,
       "chain_multiplier": 1.0403
     },
     {
       "slug": "lulo",
       "name": "Lulo",
+      "category": "Yield Aggregator",
+      "chains": [
+        "Solana"
+      ],
       "rank": 120,
       "implied_value_usd": 4274679,
       "farm_steps": [
@@ -2521,15 +3788,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 24457058,
+      "change_7d": -4.7863,
+      "listed_at": "2024-08-17",
       "capital_usd": 50,
-      "category_multiple": 0.20376,
+      "category_multiple": 0.2037597521519353,
+      "category_comparable_count": 4,
+      "category_comparable_median": 0.1509594423418544,
       "growth_factor": 0.952137,
-      "maturity_factor": 0.862115,
+      "maturity_factor": 0.8621149897330596,
       "chain_multiplier": 1.045
     },
     {
       "slug": "tempo-stablecoin-dex",
       "name": "Tempo Stablecoin Dex",
+      "category": "Dexs",
+      "chains": [
+        "Tempo"
+      ],
       "rank": 121,
       "implied_value_usd": 4272927,
       "farm_steps": [
@@ -2542,15 +3817,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 17043713,
+      "change_7d": 1.7778,
+      "listed_at": "2026-04-02",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 1.017778,
-      "maturity_factor": 0.780938,
+      "maturity_factor": 0.7809377138945928,
       "chain_multiplier": 1.01
     },
     {
       "slug": "hertzflow",
       "name": "HertzFlow",
+      "category": "Derivatives",
+      "chains": [
+        "Binance"
+      ],
       "rank": 122,
       "implied_value_usd": 4226960,
       "farm_steps": [
@@ -2563,15 +3846,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 6937718,
+      "change_7d": 0.0088,
+      "listed_at": "2026-08-31",
       "capital_usd": 50,
-      "category_multiple": 0.793388,
+      "category_multiple": 0.7933883604346038,
+      "category_comparable_count": 2,
+      "category_comparable_median": 2.1618592615211134,
       "growth_factor": 1.000088,
-      "maturity_factor": 0.760267,
+      "maturity_factor": 0.7602669404517454,
       "chain_multiplier": 1.01
     },
     {
       "slug": "agni-finance",
       "name": "Agni Finance",
+      "category": "Dexs",
+      "chains": [
+        "Mantle"
+      ],
       "rank": 123,
       "implied_value_usd": 4190939,
       "farm_steps": [
@@ -2584,15 +3875,28 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 15126696,
+      "change_7d": -4.0995,
+      "listed_at": "2023-07-21",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.959005,
-      "maturity_factor": 0.915914,
+      "maturity_factor": 0.9159137577002053,
       "chain_multiplier": 1.01
     },
     {
       "slug": "zoo-finance",
       "name": "Zoo Finance",
+      "category": "Yield",
+      "chains": [
+        "Binance",
+        "Story",
+        "Sei",
+        "Arbitrum",
+        "Base",
+        "Berachain"
+      ],
       "rank": 124,
       "implied_value_usd": 4138688,
       "farm_steps": [
@@ -2605,15 +3909,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 24557589,
+      "change_7d": -13.1939,
+      "listed_at": "2025-02-10",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 0.868061,
-      "maturity_factor": 0.837885,
-      "chain_multiplier": 1.098618
+      "maturity_factor": 0.8378850102669404,
+      "chain_multiplier": 1.0986176835575
     },
     {
       "slug": "chain-fusion",
       "name": "Chain Fusion",
+      "category": "Decentralized BTC",
+      "chains": [
+        "Bitcoin",
+        "Ethereum"
+      ],
       "rank": 125,
       "implied_value_usd": 4122929,
       "farm_steps": [
@@ -2626,15 +3939,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 20121715,
+      "change_7d": -9.4223,
+      "listed_at": "2023-12-21",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.905777,
-      "maturity_factor": 0.894969,
+      "maturity_factor": 0.8949691991786448,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "niza",
       "name": "Niza",
+      "category": "CEX",
+      "chains": [
+        "Bitcoin",
+        "Ethereum"
+      ],
       "rank": 126,
       "implied_value_usd": 4099931,
       "farm_steps": [
@@ -2647,15 +3969,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 41818593,
+      "change_7d": -9.9152,
+      "listed_at": "2026-08-18",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.900848,
-      "maturity_factor": 0.762047,
+      "maturity_factor": 0.7620465434633813,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "orangex",
       "name": "OrangeX",
+      "category": "CEX",
+      "chains": [
+        "Bitcoin",
+        "Ethereum"
+      ],
       "rank": 127,
       "implied_value_usd": 4095169,
       "farm_steps": [
@@ -2668,15 +3999,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 37991385,
+      "change_7d": -9.0733,
+      "listed_at": "2025-04-08",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.909267,
-      "maturity_factor": 0.830082,
+      "maturity_factor": 0.830082135523614,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "nuva",
       "name": "NUVA",
+      "category": "Yield",
+      "chains": [
+        "Provenance",
+        "Ethereum"
+      ],
       "rank": 128,
       "implied_value_usd": 4047771,
       "farm_steps": [
@@ -2689,15 +4029,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 15864571,
+      "change_7d": 160.8009,
+      "listed_at": "2026-07-07",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 1.5,
-      "maturity_factor": 0.767796,
+      "maturity_factor": 0.7677960301163587,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "morph-bridge",
       "name": "Morph Bridge",
+      "category": "Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 129,
       "implied_value_usd": 4017116,
       "farm_steps": [
@@ -2710,15 +4058,33 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 12273756,
+      "change_7d": -11.098,
+      "listed_at": "2024-10-30",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.88902,
-      "maturity_factor": 0.851985,
+      "maturity_factor": 0.8519849418206707,
       "chain_multiplier": 1.04
     },
     {
       "slug": "templar-lending",
       "name": "Templar Lending",
+      "category": "Lending",
+      "chains": [
+        "Stellar",
+        "Ethereum",
+        "Bitcoin",
+        "Near",
+        "Zcash",
+        "Ripple",
+        "Solana",
+        "Flare",
+        "Doge",
+        "Cardano",
+        "Litecoin"
+      ],
       "rank": 130,
       "implied_value_usd": 4009399,
       "farm_steps": [
@@ -2731,15 +4097,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 27210513,
+      "change_7d": -5.153,
+      "listed_at": "2025-08-12",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.94847,
-      "maturity_factor": 0.812834,
-      "chain_multiplier": 1.188617
+      "maturity_factor": 0.8128336755646817,
+      "chain_multiplier": 1.1886171543533635
     },
     {
       "slug": "mystic-finance-lending",
       "name": "Mystic Finance Lending",
+      "category": "Lending",
+      "chains": [
+        "Flare",
+        "Citrea",
+        "Plume Mainnet"
+      ],
       "rank": 131,
       "implied_value_usd": 3965930,
       "farm_steps": [
@@ -2752,15 +4128,29 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 30236632,
+      "change_7d": -4.6056,
+      "listed_at": "2025-04-09",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.953944,
-      "maturity_factor": 0.829945,
+      "maturity_factor": 0.8299452429842573,
       "chain_multiplier": 1.030301
     },
     {
       "slug": "d2-finance",
       "name": "D2 Finance",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Hyperliquid L1",
+        "Arbitrum",
+        "Base",
+        "Ethereum",
+        "Robinhood Chain",
+        "Berachain",
+        "Optimism"
+      ],
       "rank": 132,
       "implied_value_usd": 3915806,
       "farm_steps": [
@@ -2773,15 +4163,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22590871,
+      "change_7d": -3.939,
+      "listed_at": "2024-07-05",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.96061,
-      "maturity_factor": 0.868001,
-      "chain_multiplier": 1.159531
+      "maturity_factor": 0.8680013689253936,
+      "chain_multiplier": 1.1595311392795002
     },
     {
       "slug": "bucket-protocol-v2",
       "name": "Bucket Protocol V2",
+      "category": "CDP",
+      "chains": [
+        "Sui"
+      ],
       "rank": 133,
       "implied_value_usd": 3903739,
       "farm_steps": [
@@ -2794,15 +4192,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 24102761,
+      "change_7d": -8.6761,
+      "listed_at": "2025-09-08",
       "capital_usd": 50,
-      "category_multiple": 0.217013,
+      "category_multiple": 0.21701299163190801,
+      "category_comparable_count": 3,
+      "category_comparable_median": 0.16870131101842134,
       "growth_factor": 0.913239,
-      "maturity_factor": 0.809138,
+      "maturity_factor": 0.8091375770020534,
       "chain_multiplier": 1.01
     },
     {
       "slug": "marginfi-lending",
       "name": "marginfi Lending",
+      "category": "Lending",
+      "chains": [
+        "Solana"
+      ],
       "rank": 134,
       "implied_value_usd": 3837424,
       "farm_steps": [
@@ -2815,15 +4221,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 27713022,
+      "change_7d": -11.9875,
+      "listed_at": "2023-02-22",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.880125,
-      "maturity_factor": 0.936311,
+      "maturity_factor": 0.9363107460643395,
       "chain_multiplier": 1.045
     },
     {
       "slug": "privacy-pools-v1",
       "name": "Privacy Pools V1",
+      "category": "Privacy",
+      "chains": [
+        "Ethereum",
+        "Arbitrum",
+        "Optimism"
+      ],
       "rank": 135,
       "implied_value_usd": 3815367,
       "farm_steps": [
@@ -2836,15 +4252,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8517742,
+      "change_7d": -4.6324,
+      "listed_at": "2025-03-31",
       "capital_usd": 50,
-      "category_multiple": 0.517173,
+      "category_multiple": 0.5171734832501489,
+      "category_comparable_count": 3,
+      "category_comparable_median": 0.9691292886670639,
       "growth_factor": 0.953676,
-      "maturity_factor": 0.831177,
-      "chain_multiplier": 1.09265
+      "maturity_factor": 0.8311772758384668,
+      "chain_multiplier": 1.0926499999999997
     },
     {
       "slug": "manifest-trade",
       "name": "Manifest Trade",
+      "category": "Dexs",
+      "chains": [
+        "Solana"
+      ],
       "rank": 136,
       "implied_value_usd": 3780194,
       "farm_steps": [
@@ -2857,15 +4281,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 9084105,
+      "change_7d": 73.6522,
+      "listed_at": "2024-11-13",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 1.5,
-      "maturity_factor": 0.850068,
+      "maturity_factor": 0.8500684462696784,
       "chain_multiplier": 1.045
     },
     {
       "slug": "anthias-labs",
       "name": "Anthias Labs",
+      "category": "Risk Curators",
+      "chains": [
+        "Base"
+      ],
       "rank": 137,
       "implied_value_usd": 3708275,
       "farm_steps": [
@@ -2878,15 +4310,27 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7340723,
+      "change_7d": -9.861,
+      "listed_at": "2026-05-05",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.90139,
-      "maturity_factor": 0.77642,
+      "maturity_factor": 0.7764202600958248,
       "chain_multiplier": 1.03
     },
     {
       "slug": "mellow-restaking",
       "name": "Mellow Restaking",
+      "category": "Liquid Restaking",
+      "chains": [
+        "Ethereum",
+        "Binance",
+        "Fraxtal",
+        "Lisk",
+        "Monad"
+      ],
       "rank": 138,
       "implied_value_usd": 3594301,
       "farm_steps": [
@@ -2899,15 +4343,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 19109266,
+      "change_7d": -12.4843,
+      "listed_at": "2024-06-11",
       "capital_usd": 50,
-      "category_multiple": 0.227932,
+      "category_multiple": 0.22793155383564995,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.18276043842477482,
       "growth_factor": 0.875157,
-      "maturity_factor": 0.871287,
-      "chain_multiplier": 1.082228
+      "maturity_factor": 0.8712867898699521,
+      "chain_multiplier": 1.0822281704
     },
     {
       "slug": "3jane-lending",
       "name": "3Jane Lending",
+      "category": "Uncollateralized Lending",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 139,
       "implied_value_usd": 3591441,
       "farm_steps": [
@@ -2920,15 +4372,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 14030807,
+      "change_7d": 26.3009,
+      "listed_at": "2025-09-03",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 1.263009,
-      "maturity_factor": 0.809822,
+      "maturity_factor": 0.8098220396988364,
       "chain_multiplier": 1.04
     },
     {
       "slug": "byte-exchange",
       "name": "Byte Exchange",
+      "category": "CEX",
+      "chains": [
+        "Bitcoin",
+        "Ethereum"
+      ],
       "rank": 140,
       "implied_value_usd": 3577452,
       "farm_steps": [
@@ -2941,15 +4402,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 34064718,
+      "change_7d": -6.9788,
+      "listed_at": "2026-01-22",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.930212,
-      "maturity_factor": 0.79052,
+      "maturity_factor": 0.7905201916495551,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "katana-pre-launch",
       "name": "Katana Pre-Launch",
+      "category": "Farm",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 141,
       "implied_value_usd": 3504709,
       "farm_steps": [
@@ -2962,15 +4431,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 17633413,
+      "change_7d": -3.1255,
+      "listed_at": "2025-06-22",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 0.968745,
-      "maturity_factor": 0.819815,
+      "maturity_factor": 0.8198151950718686,
       "chain_multiplier": 1.04
     },
     {
       "slug": "neutral-trade",
       "name": "Neutral Trade",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Solana",
+        "Robinhood Chain",
+        "Ethereum",
+        "Monad"
+      ],
       "rank": 142,
       "implied_value_usd": 3435982,
       "farm_steps": [
@@ -2983,15 +4463,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 21380669,
+      "change_7d": -4.2692,
+      "listed_at": "2024-12-23",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.957308,
-      "maturity_factor": 0.844593,
-      "chain_multiplier": 1.108645
+      "maturity_factor": 0.8445927446954141,
+      "chain_multiplier": 1.10864468
     },
     {
       "slug": "stkesol-by-sol-strategies",
       "name": "STKESOL by SOL Strategies",
+      "category": "Liquid Staking",
+      "chains": [
+        "Solana"
+      ],
       "rank": 143,
       "implied_value_usd": 3406771,
       "farm_steps": [
@@ -3004,15 +4492,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 42064631,
+      "change_7d": -13.9356,
+      "listed_at": "2026-01-24",
       "capital_usd": 50,
-      "category_multiple": 0.113952,
+      "category_multiple": 0.11395241616372567,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.0405926473657955,
       "growth_factor": 0.860644,
-      "maturity_factor": 0.790246,
+      "maturity_factor": 0.7902464065708419,
       "chain_multiplier": 1.045
     },
     {
       "slug": "loopscale-curation",
       "name": "Loopscale Curation",
+      "category": "Risk Curators",
+      "chains": [
+        "Solana"
+      ],
       "rank": 144,
       "implied_value_usd": 3403455,
       "farm_steps": [
@@ -3025,15 +4521,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 6374060,
+      "change_7d": -3.5755,
+      "listed_at": "2026-09-30",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.964245,
-      "maturity_factor": 0.75616,
+      "maturity_factor": 0.7561601642710473,
       "chain_multiplier": 1.045
     },
     {
       "slug": "anemoy-capital",
       "name": "Anemoy Capital",
+      "category": "RWA",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Celo"
+      ],
       "rank": 145,
       "implied_value_usd": 3382666,
       "farm_steps": [
@@ -3046,15 +4552,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 27927845,
+      "change_7d": -72.7093,
+      "listed_at": "2024-12-09",
       "capital_usd": 50,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 0.5,
-      "maturity_factor": 0.846509,
-      "chain_multiplier": 1.081912
+      "maturity_factor": 0.8465092402464066,
+      "chain_multiplier": 1.0819120000000002
     },
     {
       "slug": "stellar-dex",
       "name": "Stellar DEX",
+      "category": "Dexs",
+      "chains": [
+        "Stellar"
+      ],
       "rank": 146,
       "implied_value_usd": 3325518,
       "farm_steps": [
@@ -3067,15 +4581,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 13370320,
+      "change_7d": -4.1027,
+      "listed_at": "2025-06-04",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.958973,
-      "maturity_factor": 0.822279,
+      "maturity_factor": 0.8222792607802875,
       "chain_multiplier": 1.01
     },
     {
       "slug": "fstswap",
       "name": "FstSwap",
+      "category": "Dexs",
+      "chains": [
+        "Binance"
+      ],
       "rank": 147,
       "implied_value_usd": 3298145,
       "farm_steps": [
@@ -3088,15 +4610,27 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 11751516,
+      "change_7d": -7.0751,
+      "listed_at": "2022-09-20",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.929249,
-      "maturity_factor": 0.957529,
+      "maturity_factor": 0.9575290896646133,
       "chain_multiplier": 1.01
     },
     {
       "slug": "alphagrowth",
       "name": "alphagrowth",
+      "category": "Risk Curators",
+      "chains": [
+        "Base",
+        "Unichain",
+        "Ethereum",
+        "Linea",
+        "Monad"
+      ],
       "rank": 148,
       "implied_value_usd": 3285529,
       "farm_steps": [
@@ -3109,15 +4643,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 5798353,
+      "change_7d": -9.0719,
+      "listed_at": "2025-10-03",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.909281,
-      "maturity_factor": 0.805715,
-      "chain_multiplier": 1.103658
+      "maturity_factor": 0.8057152635181383,
+      "chain_multiplier": 1.1036584312
     },
     {
       "slug": "sygnum-fiusd-liquidity-fund",
       "name": "Sygnum FIUSD Liquidity Fund",
+      "category": "RWA",
+      "chains": [
+        "zkSync Era"
+      ],
       "rank": 149,
       "implied_value_usd": 3251360,
       "farm_steps": [
@@ -3130,15 +4672,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 14194453,
+      "change_7d": 0.0759,
+      "listed_at": "2024-09-25",
       "capital_usd": 50,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.000759,
-      "maturity_factor": 0.856776,
+      "maturity_factor": 0.856776180698152,
       "chain_multiplier": 1.01
     },
     {
       "slug": "estate-protocol",
       "name": "Estate Protocol",
+      "category": "RWA",
+      "chains": [
+        "Arbitrum"
+      ],
       "rank": 150,
       "implied_value_usd": 3232087,
       "farm_steps": [
@@ -3151,15 +4701,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 13945568,
+      "change_7d": null,
+      "listed_at": "2024-10-09",
       "capital_usd": 50,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1,
-      "maturity_factor": 0.85486,
+      "maturity_factor": 0.8548596851471595,
       "chain_multiplier": 1.025
     },
     {
       "slug": "bitget-sol",
       "name": "Bitget SOL",
+      "category": "Liquid Staking",
+      "chains": [
+        "Solana"
+      ],
       "rank": 151,
       "implied_value_usd": 3164749,
       "farm_steps": [
@@ -3172,15 +4730,67 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 33224299,
+      "change_7d": -5.9757,
+      "listed_at": "2024-11-08",
       "capital_usd": 50,
-      "category_multiple": 0.113952,
+      "category_multiple": 0.11395241616372567,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.0405926473657955,
       "growth_factor": 0.940243,
-      "maturity_factor": 0.850753,
+      "maturity_factor": 0.8507529089664614,
       "chain_multiplier": 1.045
     },
     {
       "slug": "steer-protocol",
       "name": "Steer Protocol",
+      "category": "Liquidity Manager",
+      "chains": [
+        "Binance",
+        "Katana",
+        "Base",
+        "Flare",
+        "Ethereum",
+        "Bittensor EVM",
+        "Polygon",
+        "Manta",
+        "Nibiru",
+        "Robinhood Chain",
+        "Avalanche",
+        "Metis",
+        "Mode",
+        "Arbitrum",
+        "Linea",
+        "Hyperliquid L1",
+        "Sonic",
+        "Zircuit",
+        "Sei",
+        "Optimism",
+        "Celo",
+        "Scroll",
+        "RSK",
+        "Berachain",
+        "X Layer",
+        "Mantle",
+        "Telos",
+        "Fantom",
+        "Filecoin",
+        "Unichain",
+        "ApeChain",
+        "Taiko",
+        "zkLink",
+        "Evmos",
+        "ThunderCore",
+        "Kava",
+        "Polygon zkEVM",
+        "Astar",
+        "Blast",
+        "Moonbeam",
+        "ZetaChain",
+        "Hemi",
+        "Saga",
+        "Ronin",
+        "Soneium"
+      ],
       "rank": 152,
       "implied_value_usd": 3157099,
       "farm_steps": [
@@ -3193,15 +4803,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 13740727,
+      "change_7d": -7.725,
+      "listed_at": "2023-05-30",
       "capital_usd": 50,
-      "category_multiple": 0.207508,
+      "category_multiple": 0.20750769259990884,
+      "category_comparable_count": 1,
+      "category_comparable_median": 0.01504615559945297,
       "growth_factor": 0.92275,
-      "maturity_factor": 0.923032,
+      "maturity_factor": 0.9230321697467488,
       "chain_multiplier": 1.3
     },
     {
       "slug": "avant-aveth",
       "name": "Avant avETH",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 153,
       "implied_value_usd": 3113990,
       "farm_steps": [
@@ -3214,15 +4832,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 23890230,
+      "change_7d": -12.9245,
+      "listed_at": "2025-10-24",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.870755,
-      "maturity_factor": 0.802841,
+      "maturity_factor": 0.8028405201916495,
       "chain_multiplier": 1.04
     },
     {
       "slug": "felix-cdp",
       "name": "Felix CDP",
+      "category": "CDP",
+      "chains": [
+        "Hyperliquid L1"
+      ],
       "rank": 154,
       "implied_value_usd": 3080706,
       "farm_steps": [
@@ -3235,15 +4861,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 18895180,
+      "change_7d": -10.387,
+      "listed_at": "2025-04-08",
       "capital_usd": 50,
-      "category_multiple": 0.217013,
+      "category_multiple": 0.21701299163190801,
+      "category_comparable_count": 3,
+      "category_comparable_median": 0.16870131101842134,
       "growth_factor": 0.89613,
-      "maturity_factor": 0.830082,
+      "maturity_factor": 0.830082135523614,
       "chain_multiplier": 1.01
     },
     {
       "slug": "paimon",
       "name": "Paimon",
+      "category": "RWA",
+      "chains": [
+        "Binance"
+      ],
       "rank": 155,
       "implied_value_usd": 2964423,
       "farm_steps": [
@@ -3256,15 +4890,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 14099539,
+      "change_7d": 0.0075,
+      "listed_at": "2026-02-17",
       "capital_usd": 50,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.000075,
-      "maturity_factor": 0.786961,
+      "maturity_factor": 0.7869609856262834,
       "chain_multiplier": 1.01
     },
     {
       "slug": "defindex",
       "name": "DeFindex",
+      "category": "Yield Aggregator",
+      "chains": [
+        "Stellar"
+      ],
       "rank": 156,
       "implied_value_usd": 2951620,
       "farm_steps": [
@@ -3277,15 +4919,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 18508985,
+      "change_7d": -1.637,
+      "listed_at": "2026-02-11",
       "capital_usd": 50,
-      "category_multiple": 0.20376,
+      "category_multiple": 0.2037597521519353,
+      "category_comparable_count": 4,
+      "category_comparable_median": 0.1509594423418544,
       "growth_factor": 0.98363,
-      "maturity_factor": 0.787782,
+      "maturity_factor": 0.787782340862423,
       "chain_multiplier": 1.01
     },
     {
       "slug": "damm-capital",
       "name": "DAMM Capital",
+      "category": "Risk Curators",
+      "chains": [
+        "Ethereum",
+        "Arbitrum"
+      ],
       "rank": 157,
       "implied_value_usd": 2949441,
       "farm_steps": [
@@ -3298,15 +4949,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 5816640,
+      "change_7d": -10.5582,
+      "listed_at": "2026-09-10",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.894418,
-      "maturity_factor": 0.758898,
-      "chain_multiplier": 1.066
+      "maturity_factor": 0.7588980150581793,
+      "chain_multiplier": 1.0659999999999998
     },
     {
       "slug": "fira",
       "name": "Fira",
+      "category": "Lending",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 158,
       "implied_value_usd": 2948889,
       "farm_steps": [
@@ -3319,15 +4978,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 19999009,
+      "change_7d": 11.6361,
+      "listed_at": "2026-01-27",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 1.116361,
-      "maturity_factor": 0.789836,
+      "maturity_factor": 0.7898357289527721,
       "chain_multiplier": 1.04
     },
     {
       "slug": "echo-bridge",
       "name": "Echo Bridge",
+      "category": "Bridge",
+      "chains": [
+        "BSquared",
+        "Bitcoin"
+      ],
       "rank": 159,
       "implied_value_usd": 2934049,
       "farm_steps": [
@@ -3340,15 +5008,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8932407,
+      "change_7d": -10.2485,
+      "listed_at": "2024-08-07",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
-      "growth_factor": 0.897515,
-      "maturity_factor": 0.863484,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
+      "growth_factor": 0.8975150000000001,
+      "maturity_factor": 0.8634839151266256,
       "chain_multiplier": 1.0201
     },
     {
       "slug": "rif-on-chain",
       "name": "RIF ON CHAIN",
+      "category": "Dual-Token Stablecoin",
+      "chains": [
+        "RSK"
+      ],
       "rank": 160,
       "implied_value_usd": 2851870,
       "farm_steps": [
@@ -3361,15 +5037,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 16676100,
+      "change_7d": -9.7195,
+      "listed_at": "2024-01-12",
       "capital_usd": 50,
-      "category_multiple": 0.210269,
+      "category_multiple": 0.2102691873424993,
+      "category_comparable_count": 1,
+      "category_comparable_median": 0.03161512405499588,
       "growth_factor": 0.902805,
-      "maturity_factor": 0.891958,
+      "maturity_factor": 0.8919575633127994,
       "chain_multiplier": 1.01
     },
     {
       "slug": "hyperbeat-earn",
       "name": "Hyperbeat Earn",
+      "category": "Yield Aggregator",
+      "chains": [
+        "Hyperliquid L1"
+      ],
       "rank": 161,
       "implied_value_usd": 2850213,
       "farm_steps": [
@@ -3382,15 +5066,29 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 17615173,
+      "change_7d": -4.9692,
+      "listed_at": "2025-04-28",
       "capital_usd": 50,
-      "category_multiple": 0.20376,
+      "category_multiple": 0.2037597521519353,
+      "category_comparable_count": 4,
+      "category_comparable_median": 0.1509594423418544,
       "growth_factor": 0.950308,
-      "maturity_factor": 0.827344,
+      "maturity_factor": 0.8273442847364818,
       "chain_multiplier": 1.01
     },
     {
       "slug": "native-credit-pool",
       "name": "Native Credit Pool",
+      "category": "Lending",
+      "chains": [
+        "Morph",
+        "Ethereum",
+        "Binance",
+        "Base",
+        "Arbitrum",
+        "Robinhood Chain",
+        "X Layer"
+      ],
       "rank": 162,
       "implied_value_usd": 2847262,
       "farm_steps": [
@@ -3403,15 +5101,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 19086720,
+      "change_7d": -7.0851,
+      "listed_at": "2024-05-23",
       "capital_usd": 50,
-      "category_multiple": 0.160796,
+      "category_multiple": 0.16079599172287057,
+      "category_comparable_count": 15,
+      "category_comparable_median": 0.13239465563049407,
       "growth_factor": 0.929149,
-      "maturity_factor": 0.873888,
-      "chain_multiplier": 1.142562
+      "maturity_factor": 0.8738877481177276,
+      "chain_multiplier": 1.1425623908998
     },
     {
       "slug": "goose",
       "name": "Goose",
+      "category": "CeDeFi",
+      "chains": [
+        "Binance",
+        "Op_Bnb",
+        "Arbitrum",
+        "Ethereum"
+      ],
       "rank": 163,
       "implied_value_usd": 2846727,
       "farm_steps": [
@@ -3424,15 +5133,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 12798539,
+      "change_7d": 0.0103,
+      "listed_at": "2024-11-14",
       "capital_usd": 50,
-      "category_multiple": 0.240634,
+      "category_multiple": 0.2406338764760734,
+      "category_comparable_count": 0,
+      "category_comparable_median": null,
       "growth_factor": 1.000103,
-      "maturity_factor": 0.849932,
-      "chain_multiplier": 1.087427
+      "maturity_factor": 0.8499315537303217,
+      "chain_multiplier": 1.0874266000000001
     },
     {
       "slug": "agua",
       "name": "Agua",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ethereum",
+        "Monad"
+      ],
       "rank": 164,
       "implied_value_usd": 2761025,
       "farm_steps": [
@@ -3445,15 +5163,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 20194381,
+      "change_7d": -4.984,
+      "listed_at": "2026-08-03",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.95016,
-      "maturity_factor": 0.7641,
+      "maturity_factor": 0.7640999315537303,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "adrastea-validator",
       "name": "Adrastea Validator",
+      "category": "Staking Pool",
+      "chains": [
+        "Solana"
+      ],
       "rank": 165,
       "implied_value_usd": 2740205,
       "farm_steps": [
@@ -3466,15 +5192,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22106682,
+      "change_7d": -16.7108,
+      "listed_at": "2025-09-15",
       "capital_usd": 50,
-      "category_multiple": 0.176217,
+      "category_multiple": 0.17621655599052702,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.0017579459668445245,
       "growth_factor": 0.832892,
-      "maturity_factor": 0.808179,
+      "maturity_factor": 0.8081793292265571,
       "chain_multiplier": 1.045
     },
     {
       "slug": "rocksolid-network",
       "name": "RockSolid Network",
+      "category": "Yield",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 166,
       "implied_value_usd": 2729165,
       "farm_steps": [
@@ -3487,15 +5221,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 18161180,
+      "change_7d": -14.49,
+      "listed_at": "2025-11-05",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 0.8551,
-      "maturity_factor": 0.801198,
+      "maturity_factor": 0.8011978097193703,
       "chain_multiplier": 1.04
     },
     {
       "slug": "tessera-v",
       "name": "Tessera V",
+      "category": "Dexs",
+      "chains": [
+        "Solana"
+      ],
       "rank": 167,
       "implied_value_usd": 2657847,
       "farm_steps": [
@@ -3508,15 +5250,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 11128196,
+      "change_7d": -3.7732,
+      "listed_at": "2026-08-29",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.962268,
-      "maturity_factor": 0.760541,
+      "maturity_factor": 0.7605407255304586,
       "chain_multiplier": 1.045
     },
     {
       "slug": "nodedao",
       "name": "NodeDAO",
+      "category": "Liquid Staking",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 168,
       "implied_value_usd": 2589537,
       "farm_steps": [
@@ -3529,15 +5279,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 27596683,
+      "change_7d": -14.3713,
+      "listed_at": "2023-05-18",
       "capital_usd": 50,
-      "category_multiple": 0.113952,
+      "category_multiple": 0.11395241616372567,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.0405926473657955,
       "growth_factor": 0.856287,
-      "maturity_factor": 0.924675,
+      "maturity_factor": 0.9246748802190281,
       "chain_multiplier": 1.04
     },
     {
       "slug": "perena-vaults",
       "name": "Perena Vaults",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Solana"
+      ],
       "rank": 169,
       "implied_value_usd": 2531529,
       "farm_steps": [
@@ -3550,15 +5308,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 17232534,
+      "change_7d": -1.1868,
+      "listed_at": "2025-12-31",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.988132,
-      "maturity_factor": 0.793532,
+      "maturity_factor": 0.7935318275154004,
       "chain_multiplier": 1.045
     },
     {
       "slug": "tzbtc",
       "name": "tzBTC",
+      "category": "Bridge",
+      "chains": [
+        "Bitcoin"
+      ],
       "rank": 170,
       "implied_value_usd": 2526852,
       "farm_steps": [
@@ -3571,15 +5337,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8205783,
+      "change_7d": -10.5815,
+      "listed_at": "2025-06-16",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.894185,
-      "maturity_factor": 0.820637,
+      "maturity_factor": 0.8206365503080082,
       "chain_multiplier": 1.01
     },
     {
       "slug": "strata-markets",
       "name": "Strata Markets",
+      "category": "Yield",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 171,
       "implied_value_usd": 2523119,
       "farm_steps": [
@@ -3592,15 +5366,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 14899908,
+      "change_7d": -3.9707,
+      "listed_at": "2025-10-16",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 0.960293,
-      "maturity_factor": 0.803936,
+      "maturity_factor": 0.8039356605065024,
       "chain_multiplier": 1.04
     },
     {
       "slug": "sophon-bridge",
       "name": "Sophon Bridge",
+      "category": "Canonical Bridge",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 172,
       "implied_value_usd": 2512335,
       "farm_steps": [
@@ -3613,15 +5395,58 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 5166379,
+      "change_7d": 0.2355,
+      "listed_at": "2025-01-10",
       "capital_usd": 50,
-      "category_multiple": 0.553934,
+      "category_multiple": 0.5539338708103405,
+      "category_comparable_count": 8,
+      "category_comparable_median": 0.7463925400668032,
       "growth_factor": 1.002355,
-      "maturity_factor": 0.842129,
+      "maturity_factor": 0.8421286789869952,
       "chain_multiplier": 1.04
     },
     {
       "slug": "wan-bridge",
       "name": "Wan Bridge",
+      "category": "Bridge",
+      "chains": [
+        "Ethereum",
+        "Ripple",
+        "Cardano",
+        "Bitcoin",
+        "Arbitrum",
+        "Solana",
+        "Binance",
+        "Optimism",
+        "Avalanche",
+        "Polygon",
+        "Base",
+        "Wanchain",
+        "Metis",
+        "zkSync Era",
+        "Celo",
+        "Linea",
+        "Litecoin",
+        "X Layer",
+        "Astar",
+        "XDC",
+        "Doge",
+        "Fantom",
+        "Op_Bnb",
+        "Noble",
+        "Moonriver",
+        "Moonbeam",
+        "Tron",
+        "OKExChain",
+        "Telos",
+        "FunctionX",
+        "Blast",
+        "Polygon zkEVM",
+        "Bitrock",
+        "Energi",
+        "Odyssey",
+        "Songbird"
+      ],
       "rank": 173,
       "implied_value_usd": 2506047,
       "farm_steps": [
@@ -3634,15 +5459,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 5193861,
+      "change_7d": -6.8148,
+      "listed_at": "2022-09-12",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.931852,
-      "maturity_factor": 0.958624,
+      "maturity_factor": 0.9586242299794661,
       "chain_multiplier": 1.3
     },
     {
       "slug": "ultrayield-vaults",
       "name": "UltraYield Vaults",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 174,
       "implied_value_usd": 2461858,
       "farm_steps": [
@@ -3655,15 +5488,28 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 18404824,
+      "change_7d": -10.6883,
+      "listed_at": "2025-10-21",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
-      "growth_factor": 0.893117,
-      "maturity_factor": 0.803251,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
+      "growth_factor": 0.8931169999999999,
+      "maturity_factor": 0.8032511978097194,
       "chain_multiplier": 1.04
     },
     {
       "slug": "okcoin",
       "name": "Okcoin",
+      "category": "CEX",
+      "chains": [
+        "Ethereum",
+        "Bitcoin",
+        "Tron",
+        "Polygon",
+        "Avalanche",
+        "OKExChain"
+      ],
       "rank": 175,
       "implied_value_usd": 2423170,
       "farm_steps": [
@@ -3676,15 +5522,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 21070991,
+      "change_7d": -17.6058,
+      "listed_at": "2023-06-15",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.823942,
-      "maturity_factor": 0.920842,
-      "chain_multiplier": 1.114802
+      "maturity_factor": 0.9208418891170431,
+      "chain_multiplier": 1.114802166816
     },
     {
       "slug": "citrea-bridge",
       "name": "Citrea Bridge",
+      "category": "Bridge",
+      "chains": [
+        "Bitcoin",
+        "Ethereum"
+      ],
       "rank": 176,
       "implied_value_usd": 2337802,
       "farm_steps": [
@@ -3697,15 +5552,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7585063,
+      "change_7d": -10.4947,
+      "listed_at": "2026-02-02",
       "capital_usd": 50,
-      "category_multiple": 0.41549,
+      "category_multiple": 0.4154895679660408,
+      "category_comparable_count": 6,
+      "category_comparable_median": 0.5567308746044083,
       "growth_factor": 0.895053,
-      "maturity_factor": 0.789014,
+      "maturity_factor": 0.7890143737166324,
       "chain_multiplier": 1.0504
     },
     {
       "slug": "bucket-cdp",
       "name": "Bucket CDP",
+      "category": "CDP",
+      "chains": [
+        "Sui"
+      ],
       "rank": 177,
       "implied_value_usd": 2328984,
       "farm_steps": [
@@ -3718,15 +5581,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 12689880,
+      "change_7d": -8.7832,
+      "listed_at": "2023-07-06",
       "capital_usd": 50,
-      "category_multiple": 0.217013,
+      "category_multiple": 0.21701299163190801,
+      "category_comparable_count": 3,
+      "category_comparable_median": 0.16870131101842134,
       "growth_factor": 0.912168,
-      "maturity_factor": 0.917967,
+      "maturity_factor": 0.9179671457905544,
       "chain_multiplier": 1.01
     },
     {
       "slug": "metalx-swap",
       "name": "MetalX Swap",
+      "category": "Dexs",
+      "chains": [
+        "Proton"
+      ],
       "rank": 178,
       "implied_value_usd": 2327383,
       "farm_steps": [
@@ -3739,15 +5610,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7194753,
+      "change_7d": 4.5779,
+      "listed_at": "2022-04-04",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 1.045779,
-      "maturity_factor": 0.980664,
+      "maturity_factor": 0.9806639288158795,
       "chain_multiplier": 1.01
     },
     {
       "slug": "growihf",
       "name": "GrowiHF",
+      "category": "Yield",
+      "chains": [
+        "Hyperliquid L1",
+        "Hibachi"
+      ],
       "rank": 179,
       "implied_value_usd": 2322827,
       "farm_steps": [
@@ -3760,15 +5640,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 12818453,
+      "change_7d": 0.9833,
+      "listed_at": "2025-03-10",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 1.009833,
-      "maturity_factor": 0.834052,
+      "maturity_factor": 0.8340520191649555,
       "chain_multiplier": 1.0201
     },
     {
       "slug": "syntropia",
       "name": "Syntropia",
+      "category": "Yield Aggregator",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 180,
       "implied_value_usd": 2314910,
       "farm_steps": [
@@ -3781,15 +5669,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 13588961,
+      "change_7d": -0.0228,
+      "listed_at": "2025-10-15",
       "capital_usd": 50,
-      "category_multiple": 0.20376,
+      "category_multiple": 0.2037597521519353,
+      "category_comparable_count": 4,
+      "category_comparable_median": 0.1509594423418544,
       "growth_factor": 0.999772,
-      "maturity_factor": 0.804073,
+      "maturity_factor": 0.804072553045859,
       "chain_multiplier": 1.04
     },
     {
       "slug": "catfee-staking-vault",
       "name": "CatFee Staking Vault",
+      "category": "Staking Pool",
+      "chains": [
+        "Tron"
+      ],
       "rank": 181,
       "implied_value_usd": 2313397,
       "farm_steps": [
@@ -3802,15 +5698,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 16393978,
+      "change_7d": -1.9617,
+      "listed_at": "2025-09-11",
       "capital_usd": 50,
-      "category_multiple": 0.176217,
+      "category_multiple": 0.17621655599052702,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.0017579459668445245,
       "growth_factor": 0.980383,
-      "maturity_factor": 0.808727,
+      "maturity_factor": 0.8087268993839836,
       "chain_multiplier": 1.01
     },
     {
       "slug": "exponent-strategy-vaults",
       "name": "Exponent Strategy Vaults",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Solana"
+      ],
       "rank": 182,
       "implied_value_usd": 2263123,
       "farm_steps": [
@@ -3823,15 +5727,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 16952539,
+      "change_7d": -7.5244,
+      "listed_at": "2026-06-17",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 0.924756,
-      "maturity_factor": 0.770534,
+      "maturity_factor": 0.7705338809034907,
       "chain_multiplier": 1.045
     },
     {
       "slug": "monarq",
       "name": "Monarq",
+      "category": "Risk Curators",
+      "chains": [
+        "Flare"
+      ],
       "rank": 183,
       "implied_value_usd": 2246937,
       "farm_steps": [
@@ -3844,15 +5756,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 5132234,
+      "change_7d": -18.5227,
+      "listed_at": "2026-09-08",
       "capital_usd": 50,
-      "category_multiple": 0.700787,
+      "category_multiple": 0.700787461073204,
+      "category_comparable_count": 1,
+      "category_comparable_median": 2.9747247664392233,
       "growth_factor": 0.814773,
-      "maturity_factor": 0.759172,
+      "maturity_factor": 0.7591718001368926,
       "chain_multiplier": 1.01
     },
     {
       "slug": "stakee",
       "name": "Stakee",
+      "category": "Liquid Staking",
+      "chains": [
+        "TON"
+      ],
       "rank": 184,
       "implied_value_usd": 2239898,
       "farm_steps": [
@@ -3865,15 +5785,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 22926580,
+      "change_7d": -5.0777,
+      "listed_at": "2023-12-26",
       "capital_usd": 50,
-      "category_multiple": 0.113952,
+      "category_multiple": 0.11395241616372567,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.0405926473657955,
       "growth_factor": 0.949223,
-      "maturity_factor": 0.894285,
+      "maturity_factor": 0.8942847364818618,
       "chain_multiplier": 1.01
     },
     {
       "slug": "exponent-risk-tranching",
       "name": "Exponent Risk Tranching",
+      "category": "Yield",
+      "chains": [
+        "Solana"
+      ],
       "rank": 185,
       "implied_value_usd": 2233190,
       "farm_steps": [
@@ -3886,15 +5814,25 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 13424399,
+      "change_7d": -1.5552,
+      "listed_at": "2026-07-15",
       "capital_usd": 50,
-      "category_multiple": 0.210909,
+      "category_multiple": 0.21090931534401777,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.1914144905351388,
       "growth_factor": 0.984448,
-      "maturity_factor": 0.766701,
+      "maturity_factor": 0.7667008898015059,
       "chain_multiplier": 1.045
     },
     {
       "slug": "hibt",
       "name": "Hibt",
+      "category": "CEX",
+      "chains": [
+        "Tron",
+        "Ethereum",
+        "Bitcoin"
+      ],
       "rank": 186,
       "implied_value_usd": 2230704,
       "farm_steps": [
@@ -3907,15 +5845,35 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 17938402,
+      "change_7d": -1.2704,
+      "listed_at": "2024-05-28",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.987296,
-      "maturity_factor": 0.873203,
+      "maturity_factor": 0.8732032854209446,
       "chain_multiplier": 1.060904
     },
     {
       "slug": "yieldfi",
       "name": "YieldFi",
+      "category": "Yield Aggregator",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Arbitrum",
+        "Plume Mainnet",
+        "Sonic",
+        "Binance",
+        "Optimism",
+        "Plasma",
+        "Katana",
+        "TAC",
+        "Saga",
+        "Avalanche",
+        "Linea"
+      ],
       "rank": 187,
       "implied_value_usd": 2216361,
       "farm_steps": [
@@ -3928,15 +5886,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 10760030,
+      "change_7d": -3.4931,
+      "listed_at": "2025-01-06",
       "capital_usd": 50,
-      "category_multiple": 0.20376,
+      "category_multiple": 0.2037597521519353,
+      "category_comparable_count": 4,
+      "category_comparable_median": 0.1509594423418544,
       "growth_factor": 0.965069,
-      "maturity_factor": 0.842676,
-      "chain_multiplier": 1.243052
+      "maturity_factor": 0.8426762491444216,
+      "chain_multiplier": 1.2430524584023908
     },
     {
       "slug": "byreal",
       "name": "Byreal",
+      "category": "Dexs",
+      "chains": [
+        "Solana"
+      ],
       "rank": 188,
       "implied_value_usd": 2208035,
       "farm_steps": [
@@ -3949,15 +5915,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8878040,
+      "change_7d": -6.9178,
+      "listed_at": "2025-06-30",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.930822,
-      "maturity_factor": 0.81872,
+      "maturity_factor": 0.8187200547570157,
       "chain_multiplier": 1.045
     },
     {
       "slug": "crypto.com-liquid-staking",
       "name": "Crypto.com Liquid Staking",
+      "category": "Liquid Staking",
+      "chains": [
+        "Cronos",
+        "Solana"
+      ],
       "rank": 189,
       "implied_value_usd": 2200777,
       "farm_steps": [
@@ -3970,15 +5945,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 23614593,
+      "change_7d": -12.5758,
+      "listed_at": "2024-02-22",
       "capital_usd": 50,
-      "category_multiple": 0.113952,
+      "category_multiple": 0.11395241616372567,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.0405926473657955,
       "growth_factor": 0.874242,
-      "maturity_factor": 0.886345,
+      "maturity_factor": 0.8863449691991787,
       "chain_multiplier": 1.05545
     },
     {
       "slug": "binaryx-platform",
       "name": "Binaryx Platform",
+      "category": "RWA",
+      "chains": [
+        "Polygon"
+      ],
       "rank": 190,
       "implied_value_usd": 2157710,
       "farm_steps": [
@@ -3991,15 +5974,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8993770,
+      "change_7d": 0.0032,
+      "listed_at": "2024-02-01",
       "capital_usd": 50,
-      "category_multiple": 0.264501,
+      "category_multiple": 0.26450145742803016,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.27478004488804697,
       "growth_factor": 1.000032,
-      "maturity_factor": 0.88922,
+      "maturity_factor": 0.8892197125256673,
       "chain_multiplier": 1.02
     },
     {
       "slug": "japan-staked-sol",
       "name": "Japan Staked SOL",
+      "category": "Liquid Staking",
+      "chains": [
+        "Solana"
+      ],
       "rank": 191,
       "implied_value_usd": 2135354,
       "farm_steps": [
@@ -4012,15 +6003,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 19655590,
+      "change_7d": 20.3675,
+      "listed_at": "2026-09-17",
       "capital_usd": 50,
-      "category_multiple": 0.113952,
+      "category_multiple": 0.11395241616372567,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.0405926473657955,
       "growth_factor": 1.203675,
-      "maturity_factor": 0.75794,
+      "maturity_factor": 0.7579397672826831,
       "chain_multiplier": 1.045
     },
     {
       "slug": "katana-dex",
       "name": "Katana DEX",
+      "category": "Dexs",
+      "chains": [
+        "Ronin"
+      ],
       "rank": 192,
       "implied_value_usd": 2120151,
       "farm_steps": [
@@ -4033,15 +6032,24 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7469630,
+      "change_7d": -10.0969,
+      "listed_at": "2021-11-07",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.899031,
-      "maturity_factor": 1.000924,
+      "maturity_factor": 1.000924024640657,
       "chain_multiplier": 1.01
     },
     {
       "slug": "t3tris-finance",
       "name": "T3tris Finance",
+      "category": "Onchain Capital Allocator",
+      "chains": [
+        "Arbitrum",
+        "Robinhood Chain"
+      ],
       "rank": 193,
       "implied_value_usd": 2112779,
       "farm_steps": [
@@ -4054,15 +6062,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 13863510,
+      "change_7d": 6.7145,
+      "listed_at": "2026-06-25",
       "capital_usd": 50,
-      "category_multiple": 0.179283,
+      "category_multiple": 0.17928263458687801,
+      "category_comparable_count": 2,
+      "category_comparable_median": 0.012489221054072979,
       "growth_factor": 1.067145,
-      "maturity_factor": 0.769439,
+      "maturity_factor": 0.7694387405886379,
       "chain_multiplier": 1.03525
     },
     {
       "slug": "bitvenus",
       "name": "BitVenus",
+      "category": "CEX",
+      "chains": [
+        "Ethereum",
+        "Bitcoin",
+        "Tron",
+        "Binance"
+      ],
       "rank": 194,
       "implied_value_usd": 2066869,
       "farm_steps": [
@@ -4075,15 +6094,26 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 16150696,
+      "change_7d": -6.3876,
+      "listed_at": "2023-02-07",
       "capital_usd": 50,
-      "category_multiple": 0.135963,
+      "category_multiple": 0.13596259802604266,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.07483070804051081,
       "growth_factor": 0.936124,
-      "maturity_factor": 0.938364,
-      "chain_multiplier": 1.071513
+      "maturity_factor": 0.9383641341546886,
+      "chain_multiplier": 1.0715130400000001
     },
     {
       "slug": "syncswap",
       "name": "SyncSwap",
+      "category": "Dexs",
+      "chains": [
+        "zkSync Era",
+        "Linea",
+        "Scroll",
+        "Sophon"
+      ],
       "rank": 195,
       "implied_value_usd": 2015503,
       "farm_steps": [
@@ -4096,15 +6126,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7266961,
+      "change_7d": -8.4085,
+      "listed_at": "2023-03-27",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.915915,
-      "maturity_factor": 0.931793,
-      "chain_multiplier": 1.040604
+      "maturity_factor": 0.9317932922655715,
+      "chain_multiplier": 1.04060401
     },
     {
       "slug": "bulbaswap-v3",
       "name": "BulbaSwap V3",
+      "category": "Dexs",
+      "chains": [
+        "Morph"
+      ],
       "rank": 196,
       "implied_value_usd": 2010283,
       "farm_steps": [
@@ -4117,15 +6155,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7919991,
+      "change_7d": -5.5485,
+      "listed_at": "2024-10-30",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.944515,
-      "maturity_factor": 0.851985,
+      "maturity_factor": 0.8519849418206707,
       "chain_multiplier": 1.01
     },
     {
       "slug": "icarus-cl",
       "name": "Icarus CL",
+      "category": "Dexs",
+      "chains": [
+        "RISE"
+      ],
       "rank": 197,
       "implied_value_usd": 1926492,
       "farm_steps": [
@@ -4138,15 +6184,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 8023861,
+      "change_7d": -0.0588,
+      "listed_at": "2026-08-21",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 0.999412,
-      "maturity_factor": 0.761636,
+      "maturity_factor": 0.7616358658453114,
       "chain_multiplier": 1.01
     },
     {
       "slug": "definity-staked-sol",
       "name": "Definity Staked SOL",
+      "category": "Liquid Staking",
+      "chains": [
+        "Solana"
+      ],
       "rank": 198,
       "implied_value_usd": 1894385,
       "farm_steps": [
@@ -4159,15 +6213,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 24453416,
+      "change_7d": -13.965,
+      "listed_at": "2026-09-30",
       "capital_usd": 50,
-      "category_multiple": 0.113952,
+      "category_multiple": 0.11395241616372567,
+      "category_comparable_count": 9,
+      "category_comparable_median": 0.0405926473657955,
       "growth_factor": 0.86035,
-      "maturity_factor": 0.75616,
+      "maturity_factor": 0.7561601642710473,
       "chain_multiplier": 1.045
     },
     {
       "slug": "monolith-market",
       "name": "Monolith Market",
+      "category": "CDP",
+      "chains": [
+        "Ethereum"
+      ],
       "rank": 199,
       "implied_value_usd": 1880314,
       "farm_steps": [
@@ -4180,15 +6242,23 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7156099,
+      "change_7d": 162.8578,
+      "listed_at": "2026-05-07",
       "capital_usd": 50,
-      "category_multiple": 0.217013,
+      "category_multiple": 0.21701299163190801,
+      "category_comparable_count": 3,
+      "category_comparable_median": 0.16870131101842134,
       "growth_factor": 1.5,
-      "maturity_factor": 0.776146,
+      "maturity_factor": 0.7761464750171115,
       "chain_multiplier": 1.04
     },
     {
       "slug": "fluxion-network",
       "name": "Fluxion Network",
+      "category": "Dexs",
+      "chains": [
+        "Mantle"
+      ],
       "rank": 200,
       "implied_value_usd": 1820503,
       "farm_steps": [
@@ -4201,10 +6271,14 @@
         "After 30 days, withdraw all test positions, review the net result, and only continue with a 25-dollar cap until a real token allocation or official claim is confirmed."
       ],
       "tvl_usd": 7128833,
+      "change_7d": 2.0802,
+      "listed_at": "2026-01-03",
       "capital_usd": 50,
-      "category_multiple": 0.312299,
+      "category_multiple": 0.3122988952634467,
+      "category_comparable_count": 11,
+      "category_comparable_median": 0.3424347567468315,
       "growth_factor": 1.020802,
-      "maturity_factor": 0.793121,
+      "maturity_factor": 0.7931211498973306,
       "chain_multiplier": 1.01
     }
   ]

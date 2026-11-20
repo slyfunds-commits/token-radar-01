@@ -1,12 +1,51 @@
-import { readFileSync, writeFileSync } from "node:fs";
+import {
+  copyFileSync,
+  cpSync,
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  readdirSync,
+  statSync,
+  writeFileSync,
+} from "node:fs";
+import { join } from "node:path";
+import { fileURLToPath } from "node:url";
+import { buildDossier } from "./vendor/makefun-board.ts";
 
-const snapshotPath =
-  "/home/hatch/workspace/makefun/token-radar-01-kit/input/snapshot.json";
+const here = fileURLToPath(new URL(".", import.meta.url));
+
+function arg(name: string, fallback: string): string {
+  const at = process.argv.indexOf(`--${name}`);
+  if (at >= 0 && at + 1 < process.argv.length) return process.argv[at + 1]!;
+  const withEquals = process.argv.find((value) => value.startsWith(`--${name}=`));
+  return withEquals === undefined ? fallback : withEquals.slice(name.length + 3);
+}
+
+const inputArg = arg(
+  "input",
+  process.env.MAKEFUN_INPUT_DIR ?? "/input",
+);
+const snapshotPath = inputArg.endsWith(".json")
+  ? inputArg
+  : join(inputArg, "snapshot.json");
+if (!existsSync(snapshotPath)) {
+  process.stderr.write(
+    `token radar: no snapshot at ${snapshotPath}: pass --input <snapshot.json|directory> or mount the sealed /input\n`,
+  );
+  process.exit(2);
+}
+const outputPath = arg(
+  "output",
+  process.env.MAKEFUN_OUTPUT_DIR ?? "/output",
+);
 const snapshot = JSON.parse(readFileSync(snapshotPath, "utf8"));
 
 const GLOBAL_MEDIAN = 0.246;
 const SHRINK_STRENGTH = 5;
 const AS_OF = new Date(`${snapshot.as_of}T00:00:00Z`).getTime();
+const TEXT_MAX_BYTES = 65_536;
+const SCREENSHOT_CAPS = { max: 4, max_bytes: 524_288 };
+const IMAGE_NAME = /^[A-Za-z0-9_][A-Za-z0-9._-]{0,127}$/;
 
 function median(values: number[]): number {
   if (!values.length) return GLOBAL_MEDIAN;
@@ -53,6 +92,16 @@ function categoryMultiple(category: string | null): number {
       SHRINK_STRENGTH * GLOBAL_MEDIAN) /
     (ratios.length + SHRINK_STRENGTH)
   );
+}
+
+function categoryComparableMedian(category: string | null): number | null {
+  if (!category) return null;
+  const ratios = ratiosByCategory.get(category) ?? [];
+  return ratios.length ? median(ratios) : null;
+}
+
+function categoryComparableCount(category: string | null): number {
+  return category ? (ratiosByCategory.get(category)?.length ?? 0) : 0;
 }
 
 function growthFactor(change7d: number | null): number {
@@ -159,15 +208,21 @@ const ranked = selected
 const rows = ranked.map((entry: any, index: number) => ({
   slug: entry.protocol.slug,
   name: entry.protocol.name,
+  category: entry.protocol.category,
+  chains: entry.protocol.chains,
   rank: index + 1,
   implied_value_usd: entry.value,
   farm_steps: farmSteps(entry.protocol),
   tvl_usd: entry.protocol.tvl_usd,
+  change_7d: entry.protocol.change_7d,
+  listed_at: entry.protocol.listed_at,
   capital_usd: capitalFor(entry.protocol.tvl_usd),
-  category_multiple: Number(categoryMultiple(entry.protocol.category).toFixed(6)),
-  growth_factor: Number(growthFactor(entry.protocol.change_7d).toFixed(6)),
-  maturity_factor: Number(maturityFactor(entry.protocol.listed_at).toFixed(6)),
-  chain_multiplier: Number(chainMultiplier(entry.protocol.chains).toFixed(6)),
+  category_multiple: categoryMultiple(entry.protocol.category),
+  category_comparable_count: categoryComparableCount(entry.protocol.category),
+  category_comparable_median: categoryComparableMedian(entry.protocol.category),
+  growth_factor: growthFactor(entry.protocol.change_7d),
+  maturity_factor: maturityFactor(entry.protocol.listed_at),
+  chain_multiplier: chainMultiplier(entry.protocol.chains),
 }));
 
 const board = {
@@ -181,4 +236,80 @@ const board = {
   rows,
 };
 
-writeFileSync("board.json", JSON.stringify(board, null, 2) + "\n", "utf8");
+const liveTokens = snapshot.protocols
+  .filter(liveComparable)
+  .map((protocol: any) => ({
+    slug: protocol.slug,
+    name: protocol.name,
+    category: protocol.category,
+    chains: protocol.chains,
+    tvl_usd: protocol.tvl_usd,
+    mcap_usd: protocol.mcap_usd,
+    mcap_to_tvl: protocol.mcap_usd / protocol.tvl_usd,
+  }))
+  .sort((a: any, b: any) =>
+    b.mcap_to_tvl - a.mcap_to_tvl ||
+    a.slug.localeCompare(b.slug),
+  );
+
+const categories = [
+  ...new Set(
+    snapshot.protocols.map((protocol: any) => protocol.category ?? "Uncategorized"),
+  ),
+].sort((a, b) => a.localeCompare(b));
+const categoryComparables = categories
+  .map((category) => {
+    const ratios = ratiosByCategory.get(category) ?? [];
+    return {
+    category,
+    live_token_comparable_count: ratios.length,
+    median_mcap_to_tvl: ratios.length ? median(ratios) : null,
+    shrunk_category_multiple: categoryMultiple(category),
+    };
+  });
+
+const boardJson = `${JSON.stringify(board, null, 2)}\n`;
+const dataScript = `window.TOKEN_RADAR_BOARD = ${JSON.stringify(board)};\nwindow.TOKEN_RADAR_LIVE = ${JSON.stringify(liveTokens)};\nwindow.TOKEN_RADAR_COMPARABLES = ${JSON.stringify(categoryComparables)};\n`;
+const outputDashboard = join(outputPath, "dashboard");
+mkdirSync(outputDashboard, { recursive: true });
+writeFileSync(join(here, "board.json"), boardJson, "utf8");
+writeFileSync(join(outputPath, "board.json"), boardJson, "utf8");
+writeFileSync(join(here, "dashboard", "data.js"), dataScript, "utf8");
+writeFileSync(join(outputPath, "data.js"), dataScript, "utf8");
+cpSync(join(here, "dashboard"), outputDashboard, { recursive: true });
+
+const screenshotSource = join(here, "screenshots");
+const screenshotOutput = join(outputPath, "screenshots");
+mkdirSync(screenshotOutput, { recursive: true });
+const shots = readdirSync(screenshotSource).filter((name) => {
+  const path = join(screenshotSource, name);
+  return !name.startsWith(".") && statSync(path).isFile();
+});
+if (shots.length < 3) {
+  process.stderr.write(
+    `token radar: screenshots/ holds ${shots.length} image${shots.length === 1 ? "" : "s"}: hand in 3, the board, a detail view and a filtered view\n`,
+  );
+  process.exit(1);
+}
+for (const name of shots) {
+  if (!IMAGE_NAME.test(name)) {
+    process.stderr.write(
+      `token radar: screenshots/${name}: a name is letters, digits and . _ -, 1 to 128 characters\n`,
+    );
+    process.exit(1);
+  }
+  copyFileSync(join(screenshotSource, name), join(screenshotOutput, name));
+}
+
+writeFileSync(
+  join(outputPath, "dossier.json"),
+  buildDossier(outputPath, {
+    text_max_bytes: TEXT_MAX_BYTES,
+    screenshots: SCREENSHOT_CAPS,
+    dashboard: { max_files: 400, max_bytes: 4_194_304 },
+  }),
+);
+process.stdout.write(
+  `token radar: ${snapshot.protocols.length} protocols, ${snapshot.watchlist.length} on the watchlist, ${rows.length} board rows and ${liveTokens.length} live-token comparables\n` +
+    `token radar: wrote ${join(outputPath, "board.json")}, ${join(outputPath, "data.js")}, ${join(outputPath, "dashboard")}, ${join(outputPath, "screenshots")} (${shots.length} images) and ${join(outputPath, "dossier.json")}\n`,
+);

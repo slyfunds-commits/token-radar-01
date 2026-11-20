@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101813">
+    <title>Token Radar — Protocol launch research</title>
+    <link rel="stylesheet" href="app.css">
+    <script defer src="data.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="wordmark" href="#" aria-label="Token Radar home">
+        <span class="mark" aria-hidden="true">T</span>
+        <span>TOKEN<span class="wordmark-light">RADAR</span></span>
+      </a>
+      <div class="mast-meta"><span class="live-dot"></span> SNAPSHOT MODEL <span class="divider">/</span> <span id="as-of"></span></div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="intro-copy">
+          <p class="eyebrow">EARLY ACCESS, EVIDENCE FIRST</p>
+          <h1>Find the signal<br><em>before the ticker.</em></h1>
+          <p class="lede">A research queue of protocols whose DefiLlama records show no token. Implied values are model estimates from TVL, category peers, growth, maturity and chain factors — not forecasts or promises.</p>
+        </div>
+        <aside class="snapshot-card">
+          <span class="card-label">BOARD INTEGRITY</span>
+          <strong id="integrity-status">Checking…</strong>
+          <span id="integrity-detail" class="muted"></span>
+          <div class="snapshot-divider"></div>
+          <span class="card-label">VALUE MODEL</span>
+          <span class="formula">TVL × category × growth<br>× maturity × chain</span>
+          <span class="muted">Global prior: 0.246× market cap / TVL</span>
+        </aside>
+      </section>
+
+      <section class="spotlight-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">THE FIRST LOOK</p><h2>Top 10 by implied value</h2></div>
+          <span class="section-note">Select a card for its model and farm plan ↗</span>
+        </div>
+        <div id="spotlight" class="spotlight-grid"></div>
+      </section>
+
+      <section class="workbench">
+        <div class="section-heading">
+          <div><p class="eyebrow">RESEARCH BOARD</p><h2>Protocol queue</h2></div>
+          <div class="row-count"><strong id="visible-count">—</strong><span>protocols shown</span></div>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Token status">
+          <button class="tab active" id="prelaunch-tab" role="tab" aria-selected="true">No token recorded <span id="prelaunch-count"></span></button>
+          <button class="tab" id="live-tab" role="tab" aria-selected="false">Live-token comparables <span id="live-count"></span></button>
+        </div>
+        <p id="tab-note" class="notice"></p>
+        <div class="filters">
+          <label class="search-wrap"><span class="sr-only">Search protocols</span><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search protocol or category…" autocomplete="off"></label>
+          <label><span class="sr-only">Filter by category</span><select id="category-filter"><option value="">All categories</option></select></label>
+          <label><span class="sr-only">Filter by chain</span><select id="chain-filter"><option value="">All chains</option><option value="unrecorded">Chain not recorded</option></select></label>
+          <label><span class="sr-only">Filter by scope</span><select id="scope-filter"><option value="">All scopes</option><option value="watchlist">Watchlist · $50M+</option><option value="early">Early · below $50M</option></select></label>
+          <label class="sort-label"><span class="sr-only">Sort protocols</span><select id="sort"><option value="rank">Sort: board rank</option><option value="value-desc">Implied value: high to low</option><option value="value-asc">Implied value: low to high</option><option value="tvl-desc">TVL: high to low</option><option value="tvl-asc">TVL: low to high</option><option value="name">Name: A to Z</option></select></label>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th scope="col">#</th><th scope="col">Protocol</th><th scope="col">Category</th><th id="tvl-heading" scope="col">TVL</th><th id="multiple-heading" scope="col">Model multiple</th><th id="value-heading" scope="col" class="align-right">Implied value</th><th scope="col">Scope</th><th scope="col"><span class="sr-only">Details</span></th></tr></thead>
+            <tbody id="board-rows"></tbody>
+          </table>
+          <div id="empty-state" class="empty-state" hidden></div>
+        </div>
+      </section>
+
+      <section class="comparables-section">
+        <div class="section-heading">
+          <div><p class="eyebrow">HOW THE MODEL IS GROUNDED</p><h2>Category comparables</h2></div>
+          <span class="section-note">Shrunk toward 0.246× global prior</span>
+        </div>
+        <p class="section-intro">Each multiple is the category median market-cap / TVL of live-token peers, shrunk toward the global median. Peer counts and medians are shown from the snapshot; thin samples are visible, not hidden.</p>
+        <div class="table-wrap compact">
+          <table>
+            <thead><tr><th scope="col">Category</th><th scope="col" class="align-right">Peer median mcap / TVL</th><th scope="col" class="align-right">Shrunk category multiple</th><th scope="col" class="align-right">Live-token peers</th></tr></thead>
+            <tbody id="comparables-rows"></tbody>
+          </table>
+        </div>
+      </section>
+      <footer><span>TOKEN RADAR <span id="footer-date"></span></span><span>DefiLlama snapshot · $50M watchlist floor</span><span>Model output, not financial advice.</span></footer>
+    </main>
+
+    <dialog id="detail-dialog" aria-labelledby="detail-title">
+      <div class="dialog-shell">
+        <button id="dialog-close" class="dialog-close" aria-label="Close protocol details">×</button>
+        <div id="detail-content"></div>
+      </div>
+    </dialog>
+  </body>
+</html>
