@@ -639,13 +639,25 @@ export function parseSnapshot(text: string): Snapshot {
   if (typeof o.floor_usd !== 'number' || !Number.isSafeInteger(o.floor_usd) || o.floor_usd <= 0) throw new SnapshotError('snapshot.json has no floor_usd');
   if (!Array.isArray(o.protocols)) throw new SnapshotError('snapshot.json has no protocols array');
   if (!Array.isArray(o.watchlist) || o.watchlist.some((s) => typeof s !== 'string')) throw new SnapshotError('snapshot.json has no watchlist of slugs');
-  const protocols = o.protocols.map((v, i) => {
-    if (typeof v !== 'object' || v === null || Array.isArray(v)) throw new SnapshotError(`snapshot.json's protocol ${i} is not an object`);
+  // Lenient about individual rows, strict about the whole: a protocol without
+  // a slug, a name or a TVL cannot be scored, so it is skipped with a warning
+  // on stderr, and the board still gets built. The program only fails outright
+  // when the watchlist cannot be covered, which main.ts checks after scoring.
+  // A category the model has never seen is a family of its own (familyOf),
+  // so it degrades to the global median instead of failing.
+  const protocols: Protocol[] = [];
+  for (let i = 0; i < o.protocols.length; i++) {
+    const v = o.protocols[i];
+    if (typeof v !== 'object' || v === null || Array.isArray(v)) {
+      console.error(`token radar: skipping snapshot protocol ${i}: not an object`);
+      continue;
+    }
     const p = v as Record<string, unknown>;
     if (typeof p.slug !== 'string' || typeof p.name !== 'string' || typeof p.tvl_usd !== 'number' || !Number.isFinite(p.tvl_usd)) {
-      throw new SnapshotError(`snapshot.json's protocol ${i} lacks a slug, a name or a TVL`);
+      console.error(`token radar: skipping snapshot protocol ${i}: no slug, name or TVL`);
+      continue;
     }
-    return {
+    protocols.push({
       slug: p.slug,
       name: p.name,
       category: typeof p.category === 'string' ? p.category : null,
@@ -656,8 +668,8 @@ export function parseSnapshot(text: string): Snapshot {
       listed_at: typeof p.listed_at === 'string' ? p.listed_at : null,
       gecko_id: typeof p.gecko_id === 'string' ? p.gecko_id : null,
       symbol: typeof p.symbol === 'string' ? p.symbol : null,
-    };
-  });
+    });
+  }
   return { as_of: o.as_of, source: o.source, floor_usd: o.floor_usd, protocols, watchlist: o.watchlist as string[] };
 }
 
